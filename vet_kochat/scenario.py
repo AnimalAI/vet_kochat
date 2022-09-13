@@ -8,7 +8,7 @@ vomit = Scenario(
     api=diagnosis.request,
     scenario={
         'ANIMAL': [],
-        'AREA': [''],
+        'AREA': [' '],
         'SYMPTOM1': [],
         'SYMPTOM2': ['구토'],
     }
@@ -26,11 +26,11 @@ skin = Scenario(
 )
 
 eye = Scenario(
-    intent='skin',
+    intent='eye',
     api=diagnosis.request,
     scenario={
         'ANIMAL': [],
-        'AREA': [''],
+        'AREA': [' '],
         'SYMPTOM1': [],
         'SYMPTOM2': ['눈'],
     }
