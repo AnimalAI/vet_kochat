@@ -1,11 +1,11 @@
-from mlApi import DecisionTreeDiagnosis
+from diagnosis_api import RandomForestDiagnosis
 from kochat.app import Scenario
 
-decisionTreeDiagnosis = DecisionTreeDiagnosis()
+diagnosis = RandomForestDiagnosis()
 
 vomit = Scenario(
     intent='vomit',
-    api=decisionTreeDiagnosis.request,
+    api=diagnosis.request,
     scenario={
         'ANIMAL': [],
         'AREA': [''],
@@ -16,7 +16,7 @@ vomit = Scenario(
 
 skin = Scenario(
     intent='skin',
-    api=decisionTreeDiagnosis.request,
+    api=diagnosis.request,
     scenario={
         'ANIMAL': [],
         'AREA': [],
@@ -27,7 +27,7 @@ skin = Scenario(
 
 eye = Scenario(
     intent='skin',
-    api=decisionTreeDiagnosis.request,
+    api=diagnosis.request,
     scenario={
         'ANIMAL': [],
         'AREA': [''],

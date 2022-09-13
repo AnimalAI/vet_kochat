@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 url = "http://43.200.87.239:5000"
 
-class DecisionTreeDiagnosis:
+class RandomForestDiagnosis:
     def request(self, ANIMAL: str, AREA: str, SYMPTOM1: str, SYMPTOM2: str):
         try:
             result = requests.post(url + "/predict",data={'a':ANIMAL,'b':AREA,'c':SYMPTOM1,'d':SYMPTOM2}).text
