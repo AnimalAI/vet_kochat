@@ -11,7 +11,20 @@ class RandomForestDiagnosis:
             result = result[startIdx + 25:]
             endIdx = result.index("</h2>")
             result = result[:endIdx]
-            return str(ANIMAL) +"의 "+str(AREA) + str(SYMPTOM1) + str(SYMPTOM2) + "와 관련된 질병은 다음과 같습니다.\n"+result
+
+            message = ""
+            if len(ANIMAL)==7:
+                message += ANIMAL[0:3]
+            else:
+                message += ANIMAL
+            if len(AREA)!=0:
+                message += (" "+str(AREA))
+            if len(AREA)!=0:
+                message += (" "+str(SYMPTOM1))
+            if len(AREA)!=0:
+                message += (" "+str(SYMPTOM2))
+            message += "와 관련된 질병은 다음과 같습니다.\n"
+            return message + result
         except Exception:
             return self.sorry('그 질병은 알 수 없어요.')
 

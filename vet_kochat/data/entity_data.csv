@@ -763,7 +763,7 @@ question,label
 강아지 눈 기생충,S-ANIMAL O S-SYMPTOM1
 고양이 눈 기생충,S-ANIMAL O S-SYMPTOM1
 눈 기생충,O S-SYMPTOM1
-강아지 속눈썹 이상,S-ANIMAL O S-SYMPTOM1
+강아지 속눈썹 이상,S-ANIMAL S-SYMPTOM1 O
 고양이 속눈썹 이상,S-ANIMAL O S-SYMPTOM1
 속눈썹 이상,O S-SYMPTOM1
 강아지 동공 확대,S-ANIMAL O S-SYMPTOM1
