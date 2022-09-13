@@ -1,0 +1,163 @@
+question,label
+강아지 눈 관련...,S-ANIMAL O O
+고양이 눈 관련...,S-ANIMAL O O
+강아지 눈 관련,S-ANIMAL O O
+고양이 눈 관련,S-ANIMAL O O
+눈 관련...,O O
+고양이 눈이 이상해요,S-ANIMAL O O
+강아지 눈이 이상해요,S-ANIMAL O O
+고양이 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
+강아지 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
+강아지 눈이 이상하고 창백해요,S-ANIMAL O O S-SYMPTOM1
+고양이 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
+강아지 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
+눈이 이상하고 무기력해요,O O S-SYMPTOM1
+눈이 이상하고 무기력,O O S-SYMPTOM1
+눈이 이상해요,O O
+저희집 개 눈이 이상해요,O S-ANIMAL O O
+저희집 개 눈이 이상하고 무기력해요,O S-ANIMAL O O S-SYMPTOM1
+저희집 개 눈이 이상하고 창백해요,O S-ANIMAL O O S-SYMPTOM1
+강아지 눈 관련 질문드립니다,S-ANIMAL O O O
+고양이 눈 관련 질문드립니다,S-ANIMAL O O O
+강아지 눈 관련 질문드려요,S-ANIMAL O O O
+고양이 눈 관련 질문드려요,S-ANIMAL O O O
+눈 관련 질문드려요,O O O
+저희집 개 눈이 이상해요,S-ANIMAL O O O
+강아지 눈이 왜 이럴까요?,S-ANIMAL O O O
+고양이 눈이 왜 이럴까요?,S-ANIMAL O O O
+눈에 눈곱이 많이 나고 눈을 못떠요,O S-SYMPTOM1 O O O O
+강아지 눈 부음,S-ANIMAL O O
+고양이 눈 부음,S-ANIMAL O O
+강아지 눈 붓기,S-ANIMAL O O
+고양이 눈 붓기,S-ANIMAL O O
+개 눈 부음,S-ANIMAL O O
+개 눈 붓기,S-ANIMAL O O
+눈이 빨갛고 부어있어요,S-ANIMAL O O
+눈이 충혈되고 부어있어요,S-ANIMAL O O
+눈이 실명됐어요,S-ANIMAL O
+강아지 눈에 뭐가 들어간것같아요,S-ANIMAL O O O
+고양이 눈에 뭐가 들어간것같아요,S-ANIMAL O O O
+강아지 눈에 점,S-ANIMAL O O
+고양이 눈에 점,S-ANIMAL O O
+눈에 점,O O
+강아지 눈에 이상한게 났어요,S-ANIMAL O O O
+고양이 눈에 이상한게 났어요,S-ANIMAL O O O
+강아지 눈 좀 봐주세요,S-ANIMAL O O O
+고양이 눈 좀 봐주세요,S-ANIMAL O O O
+눈 좀 봐주세요,O O O
+강아지 눈에 노란색 눈곱,S-ANIMAL O O S-SYMPTOM1
+고양이 눈에 노란색 눈곱,S-ANIMAL O O S-SYMPTOM1
+눈에 노란색 눈곱,O O S-SYMPTOM1
+강아지 눈,S-ANIMAL O
+고양이 눈,S-ANIMAL O
+강아지 눈 다래끼 충혈,S-ANIMAL O O S-SYMPTOM1
+고양이 눈 다래끼 충혈,S-ANIMAL O O S-SYMPTOM1
+눈 다래끼 충혈,O O S-SYMPTOM1
+강아지 눈 흰자가 갈색인데 무슨 문제있는건가요?,S-ANIMAL O O O O O
+고양이 눈 흰자가 갈색인데 무슨 문제있는건가요?,S-ANIMAL O O O O O
+눈 흰자가 갈색인데 무슨 문제있는건가요?,O O O O O
+강아지 눈이 튀어나왔어요,S-ANIMAL O O
+고양이 눈이 튀어나왔어요,S-ANIMAL O O
+눈이 튀어나왔어요,O O
+강아지 눈 건강,S-ANIMAL O O
+고양이 눈 건강,S-ANIMAL O O
+눈 건강,O O
+강아지 눈밑에 피,S-ANIMAL O O
+고양이 눈밑에 피,S-ANIMAL O O
+눈밑에 피,O O
+강아지 눈 주위 빨감,S-ANIMAL O O O
+고양이 눈 주위 빨감,S-ANIMAL O O O
+눈 주위 빨감,O O O
+강아지 눈 건강,S-ANIMAL O O
+고양이 눈 건강,S-ANIMAL O O
+눈 건강,O O
+강아지 눈에 이상한게 있는데,S-ANIMAL O O O
+고양이 눈에 이상한게 있는데,S-ANIMAL O O O
+눈에 이상한게 있는데,O O O
+고양이 눈에 이상한게 있어요,S-ANIMAL O O O
+강아지 눈에 이상한게 있어요,S-ANIMAL O O O
+고양이 눈에 이상한거,S-ANIMAL O O
+강아지 눈에 이상한거,S-ANIMAL O O
+눈에 이상한거,O O
+고양이 눈에 이상한게 있어,S-ANIMAL O O O
+강아지 눈에 이상한게 있어,S-ANIMAL O O O
+눈에 이상한게 있어,O O O
+강아지 눈 붓기,S-ANIMAL O S-SYMPTOM1
+고양이 눈 붓기,S-ANIMAL O S-SYMPTOM1
+붓기,S-SYMPTOM1
+새끼 강아지 눈이 이상해요ㅠㅠ,O S-ANIMAL O O
+새끼 고양이 눈이 이상해요ㅠㅠ,O S-ANIMAL O O
+강아지 눈이 이상해요ㅠㅠ,S-ANIMAL O O
+고양이 눈이 이상해요ㅠㅠ,S-ANIMAL O O
+눈이 이상해요ㅠㅠ,O O
+강아지 눈 다래끼,S-ANIMAL O S-SYMPTOM1
+고양이 눈 다래끼,S-ANIMAL O S-SYMPTOM1
+눈 다래끼,O S-SYMPTOM1
+강아지 눈이 문제있나요?,S-ANIMAL O O
+고양이 눈이 문제있나요?,S-ANIMAL O O
+눈이 문제있나요?,O O
+강아지 눈 봐주세요,S-ANIMAL O O
+고양이 눈 봐주세요,S-ANIMAL O O
+강아지가 눈을 못 떠요,S-ANIMAL O O O
+고양이가 눈을 못 떠요,S-ANIMAL O O O
+강아지 눈 이상,S-ANIMAL O O
+고양이 눈 이상,S-ANIMAL O O
+눈 이상,O O
+강아지 눈 주변이 빨개요ㅠㅠ,S-ANIMAL O O O
+고양이 눈 주변이 빨개요ㅠ,S-ANIMAL O O O
+눈 주변이 빨개요ㅠ,O O O
+강아지 눈 혼탁 충혈,S-ANIMAL O S-SYMPTOM1 O
+강아지 눈 혼탁 충혈,S-ANIMAL O S-SYMPTOM1 O
+눈 혼탁 충혈,O S-SYMPTOM2 O
+강아지 눈 흰자에 이상한거,S-ANIMAL O O O
+고양이 눈 흰자에 이상한거,S-ANIMAL O O O
+강아지 눈에 검정 이물질,S-ANIMAL O O S-SYMPTOM1
+고양이 눈에 검정 이물질,S-ANIMAL O O S-SYMPTOM1
+눈에 검정 이물질,O O S-SYMPTOM1
+강아지 눈에 물집,S-ANIMAL O S-SYMPTOM1
+고양이 눈에 물집,S-ANIMAL O S-SYMPTOM1
+눈에 물집,O S-SYMPTOM1
+강아지 눈병 증상,S-ANIMAL O O
+고양이 눈병 증상,S-ANIMAL O O
+강아지 눈에 이물질,S-ANIMAL O O
+고양이 눈에 이물질,S-ANIMAL O O
+눈에 이물질,O O
+강아지가 눈을 비벼요,S-ANIMAL O O
+고양이가 눈을 비벼요,S-ANIMAL O O
+강아지 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+고양이 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+눈이 건조해요,O S-SYMPTOM1
+눈 건조,O S-SYMPTOM1
+강아지 눈 실명,S-ANIMAL O S-SYMPTOM1
+고양이 눈 실명,S-ANIMAL O S-SYMPTOM1
+눈 실명,O S-SYMPTOM1
+강아지 눈 돌출,S-ANIMAL O S-SYMPTOM1
+고양이 눈 돌출,S-ANIMAL O S-SYMPTOM1
+눈 돌출,O S-SYMPTOM1
+강아지 눈 진탕,S-ANIMAL O S-SYMPTOM1
+고양이 눈 진탕,S-ANIMAL O S-SYMPTOM1
+눈 진탕,O S-SYMPTOM1
+강아지 눈 종괴,S-ANIMAL O S-SYMPTOM1
+고양이 눈 종괴,S-ANIMAL O S-SYMPTOM1
+눈 종괴,O S-SYMPTOM1
+강아지 눈 종창,S-ANIMAL O S-SYMPTOM1
+고양이 눈 종창,S-ANIMAL O S-SYMPTOM1
+눈 종창,O S-SYMPTOM1
+강아지 눈 기생충,S-ANIMAL O S-SYMPTOM1
+고양이 눈 기생충,S-ANIMAL O S-SYMPTOM1
+눈 기생충,O S-SYMPTOM1
+강아지 속눈썹 이상,S-ANIMAL O S-SYMPTOM1
+고양이 속눈썹 이상,S-ANIMAL O S-SYMPTOM1
+속눈썹 이상,O S-SYMPTOM1
+강아지 동공 확대,S-ANIMAL O S-SYMPTOM1
+고양이 동공 확대,S-ANIMAL O S-SYMPTOM1
+동공 확대,O S-SYMPTOM1
+강아지 눈꺼풀 처짐,S-ANIMAL O S-SYMPTOM1
+고양이 눈꺼풀 처짐,S-ANIMAL O S-SYMPTOM1
+눈꺼풀 처짐,O S-SYMPTOM1
+강아지 눈떨림,S-ANIMAL S-SYMPTOM1
+고양이 눈떨림,S-ANIMAL S-SYMPTOM1
+눈떨림,S-SYMPTOM1
+강아지 동공 부종,S-ANIMAL S-SYMPTOM1 O
+고양이 동공 부종,S-ANIMAL S-SYMPTOM1 O
+동공 부종,O S-SYMPTOM1

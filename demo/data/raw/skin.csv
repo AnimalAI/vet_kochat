@@ -1,0 +1,317 @@
+question,label
+고양이 피부가 이상해요,S-ANIMAL O O
+강아지 피부가 이상해요,S-ANIMAL O O
+고양이 피부가 이상하고 식욕이 없어요,S-ANIMAL O O S-SYMPTOM1 O
+제가 친구들이랑 돌보는 고양이인데 이거 곰팡이 피부병 인가요??,O O O S-ANIMAL O S-SYMPTOM1 O O
+고양이 상처?,S-ANIMAL O
+상처?,O
+고양이 귀 붓기,S-ANIMAL S-AREA O
+귀 붓기,S-AREA O
+길고양이 좁쌀처럼 생긴 하얀 진드기,S-ANIMAL O O O O
+사진의 진드기의 종류가 무엇인가요?,O O O O
+이게 곰팡이성 피부질환인가요?,O S-SYMPTOM1 O
+자주 보이는 길고양이인데 다리에 상처가 있습니다.,O O S-ANIMAL O O O
+고양이 피부병인가요?,S-ANIMAL O
+피부병인가요?,O
+이거 고양이 진드기인가요?,O S-ANIMAL O
+저희 고양이가 입주변에 상처?뾰루지?,O S-ANIMAL O O
+지금 등 쪽에 딱딱한 멍울이 생겼어요 ㅠ,O O O O O O O
+고양이 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
+엉덩이 옆에 욕창 같은게 생겼어요,O O S-SYMPTOM1 O O
+링웜이맞는지 검사는필요없나요?,O O
+고양이 링웜,S-ANIMAL O
+링웜,O
+링웜인가요??,O
+고양이가 피부병에 걸렸어요,S-ANIMAL O O
+고양이 3개월 됐고 귀에 있는 진드기 치료중입니다,S-ANIMAL O O O O O O
+귀에 있는 진드기 치료중입니다,O O O O
+고양이 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
+눈에서 상처 자국이 보입니다.,S-AREA O O O
+처음에는 털이 들어간줄 알았는데 상처더군요.,O O O O O
+고양이 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
+혓바닥에 상처들이 있어요,S-AREA O O
+고양이가 진드기에 물렸어요,S-ANIMAL O O
+진드기에 물렸어요,O O
+고양이 피부 봐주세요 ㅠㅠ,S-ANIMAL O O O
+피부 봐주세요 ㅠㅠ,O O O
+고양이 피부병,S-ANIMAL O
+피부병,O
+고양이 피부좀 봐주세요,S-ANIMAL O O
+피부좀 봐주세요,O O
+고양이 피부 좀 봐주세요,S-ANIMAL O O O
+강아지 피부 봐주세요 ㅠㅠ,S-ANIMAL O O O
+피부좀 봐주세요 ㅠㅠ,O O O
+강아지 피부좀 봐주세요,S-ANIMAL O O
+강아지 피부 좀 봐주세요,S-ANIMAL O O O
+동물병원에서는 피부가 빨갛지는 않다고,O O O O
+곰팡이 피부병이 아니라고 했는데,O O O O
+전염되지 않는 피부병인가요?,O O O
+무슨 피부병인지 알고 가고 싶습니다.,O O O O O
+고양이 피부,S-ANIMAL O
+고양이 피부병 질문 ㅠㅠ,S-ANIMAL O O O
+피부병 질문 ㅠㅠ,O O O
+고양이 피부에 여드름 같은게 났어요,S-ANIMAL O O O O
+피부에 여드름 같은게 났어요,O O O O
+만약 피부병이 생기면 어떤 증상을 보이는지 좀 알려주세요ㅜㅜㅜ,O O O O O O O O
+피부는 깨끗한거 같은데 비듬이 계속 나오는 이유가 있을까요?,O O O O O O O O
+혹시나 피부병 같은게 생긴걸까요?,O O O O
+아니면 진드기?ㅜㅜㅜㅜ,O O
+아니면 진드기?,O O
+개 진드기 치료,S-ANIMAL O O
+진드기 치료,O O
+개 피부병 인가요?,S-ANIMAL O O
+피부병 인가요?,O O
+강아지 피부병 인가요?,S-ANIMAL O O
+고양이 피부병 인가요?,S-ANIMAL O O
+"한 1달 된거 같은데, 개 피부병 인가요?",O O O O S-ANIMAL O O
+"한 1달 된거 같은데, 강아지 피부병 인가요?",O O O O S-ANIMAL O O
+"한 1달 된거 같은데, 고양이 피부병 인가요?",O O O O S-ANIMAL O O
+원래 있던게 아닌 갑자기 피부가 혹처럼 딱딱해서 봣떠니,O O O O O O O O
+혹시 피부병인가요...?,O O
+혹시 고양이 피부병인가요...?,O S-ANIMAL O
+혹시 강아지 피부병인가요...?,O S-ANIMAL O
+마당에 키우는 강아지 진드기,O O S-ANIMAL O
+강아지 상처 꼬매야될 정돈가요?,S-ANIMAL O O O
+고양이 상처 꼬매야될 정돈가요?,S-ANIMAL O O O
+상처 꼬매야될 정돈가요?,O O O
+진드기때문인가요?,O
+아니면 피부병 때문인가요?,O O O
+진드기때문에 생긴 증상일까요?,O O O
+아니면 피부병일까요?,O O
+상처인지 머가 난건지 모르겠어요 ㅠㅠ,O O O O O
+피부종양인가요?,O
+피부 종양인가요?,O S-SYMPTOM1
+개 뒷다리에 볼록한게 있어서 보니 사진처럼 저런게 생겼어요.피부종양인가요?,S-ANIMAL O O O O O O O
+피부 염증인가요?,O S-SYMPTOM1
+냥이 여드름 너무 자주 납니다ㅜ,O O O O O
+여드름 너무 자주 납니다ㅜ,O O O O
+강아지 링웜,S-ANIMAL O
+강아지 프론트라인(진드기약)을 바르고 난후 바로 산책했는데 괜찮을까요?,S-ANIMAL O O O O O O
+수의사선생님이 복강내 종괴도 얘기했습니다,O O O O
+비장은 종괴가 여러군데 보여서 둘 다 절제수술했습니다,O O O O O O O
+강아지 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
+발가락 골절 후 피부,S-AREA O O O
+이 피부병이 농피증인가요?,O O O
+사람피부병에 바르는 약을 바르면 어떻게되나요??,O O O O O
+강아지 다리 절음과 발바닥 핥음.,S-ANIMAL S-AREA O O O
+다리 절음과 발바닥 핥음.,S-AREA O O O
+강아지가 산책가기 전까지는 안그랬는데 다녀와서 한쪽 뒷다리를 절고 발바닥을 핥아요.,S-ANIMAL O O O O O O O O O
+발바닥만 핥아요 ㅠㅠ 어떻게 해야 하죠?,O O O O O O
+진드기가 맞나요?,O O
+이 진드기한테 물리면 어떤 증상이 잇나요?,O O O O O O
+강아지 진드기,S-ANIMAL O
+진드기가 맞다면 집게같은 걸로 떼어줘도 괜찮을까요?,O O O O O O
+진드기가 아니면 무슨 염증인지도 부탁 드립니다!,O O O O O O
+강아지 피부병,S-ANIMAL O
+강아지 등에 피부병이 생겼어요,S-ANIMAL O O O
+등에 피부병이 생겼어요,O O O
+강아지 뾰루지,S-ANIMAL O
+고양이 뾰루지,S-ANIMAL O
+뾰루지,O
+강아지가 뾰루지가 났어요,S-ANIMAL O O
+뾰루지가 났어요,O O
+고양이가 뾰루지가 났어요,S-ANIMAL O O
+강아지가 뾰루지가 났어,S-ANIMAL O O
+고양이가 뾰루지가 났어,S-ANIMAL O O
+강아지가 뾰루지가 났네,S-ANIMAL O O
+고양이가 뾰루지가 났네,S-ANIMAL O O
+강아지 피부터짐,S-ANIMAL O
+강아지 피부 터짐,S-ANIMAL O O
+피부 터짐,O O
+강아지 피부에 이런게 생겼는데 뭔가요,S-ANIMAL O O O O
+강아지 피부에 이런게 생겼는데 뭔가요??,S-ANIMAL O O O O
+피부에 이런게 생겼는데 뭔가요??,O O O O
+강아지 몸에 진드기 붙었을 때,S-ANIMAL O O O O
+몸에 진드기 붙었을 때,O O O O
+강아지 몸에 진드기 붙으면 어떻게 해야하는지 알려주세요ㅜ,S-ANIMAL O O O O O O
+몸에 진드기 붙으면 어떻게 해야하는지 알려주세요ㅜ,O O O O O O
+진드기 붙으면 어떻게 해야하는지 알려주세요ㅜ,O O O O O
+강아지가 진드기한테 물렸어요,S-ANIMAL O O
+진드기한테 물렸어요,O O
+고양이가 진드기한테 물렸어요,S-ANIMAL O O
+강아지가 진드기한테 물렸는데 부어오르고 멍이들었네요,S-ANIMAL O O O O
+물렸는데 부어오르고 멍이들었네요,O O O
+고양이가 진드기한테 물렸는데 부어오르고 멍이들었네요,S-ANIMAL O O O O
+진드기가 있는것 같아요,O O O
+강아지 욕창 치료 질문,S-ANIMAL O O O
+고양이 욕창 치료 질문,S-ANIMAL O O O
+욕창 치료 질문,O O O
+강아지가 나이가  많아 하루종일 누워있다보니 욕창이 생겼습니다.,S-ANIMAL O O O O O O O
+강아지 피부에 이거 뭐예요?,S-ANIMAL O O O
+피부에 이거 뭐예요?,O O O
+고양이 피부에 이거 뭐예요?,S-ANIMAL O O O
+강아지 진드기 제거후 조치,S-ANIMAL O O O
+이거 진드기일까요 흑색종일까요,O O O
+진드기 무슨 종류인지 알 수 있을까요,O O O O O O
+강아지 귀 속 진드기,S-ANIMAL O O O
+귀 속 진드기,O O O
+고양이 귀 속 진드기,S-ANIMAL O O O
+이거 살인진드기인가요?,O O
+강아지 피부병 걸린건가요?,S-ANIMAL O O
+피부병 걸린건가요?,O O
+고양이 피부병 걸린건가요?,S-ANIMAL O O
+이 상처가 진드기에 의한 피부병인가요?,O O O O O
+상처가 진드기에 의한 피부병인가요?,O O O O
+상처가 진드기에 의한 피부병이에요?,O O O O
+강아지의 피부 질문드려요,S-ANIMAL O O
+고양이의 피부 질문드려요,S-ANIMAL O O
+피부 질문드려요,O O
+강아지 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-ANIMAL S-AREA O O
+고양이 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-ANIMAL S-AREA O O
+꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-AREA O O
+강아지 꼬리에 곪은상처 왜이럴까요?,S-ANIMAL S-AREA O O
+고양이 꼬리에 곪은상처 왜이럴까요?,S-ANIMAL S-AREA O O
+꼬리에 곪은상처 왜이럴까요?,S-AREA O O
+상처가있는데 피고름이 나오더라구요,O O O
+진드기?,O
+진드기,O
+피부,O
+"피부병인지, 어디가 아픈 것인지 병원에 가기 전에 알아보고 싶어서 질문 드립니다.",O O O O O O O O O O O
+저희 강아지 탈모인가요?,O S-ANIMAL O
+저희 고양이 탈모인가요?,O S-ANIMAL O
+탈모인가요?,O
+강아지가 말티즈인데 피부병이 낫질 않아요.,S-ANIMAL O O O O
+이게 작은 소참진드기 맞나요?,O O O O
+피부병이라면 무슨 피부병일까요..?ㅜㅜ,O O O
+"그런데 배쪽에서 종괴가 발견됬다네요, 최근에 밥도 잘못먹고 살이빠져서",O O O O O O O O
+고양이 배에 진드기가 있어요,S-ANIMAL S-AREA O O
+배에 진드기가 있어요,S-AREA O O
+고양이 가슴에 진드기가 있어요,S-ANIMAL S-AREA O O
+가슴에 진드기가 있어요,S-AREA O O
+고양이 발에 진드기가 있어요,S-ANIMAL S-AREA O O
+발에 진드기가 있어요,S-AREA O O
+고양이 머리에 진드기가 있어요,S-ANIMAL S-AREA O O
+머리에 진드기가 있어요,S-AREA O O
+고양이 허리에 진드기가 있어요,S-ANIMAL S-AREA O O
+허리에 진드기가 있어요,S-AREA O O
+강아지 배에 진드기가 있어요,S-ANIMAL S-AREA O O
+배에 진드기가 있어요,S-AREA O O
+강아지 가슴에 진드기가 있어요,S-ANIMAL S-AREA O O
+강아지 발에 진드기가 있어요,S-ANIMAL S-AREA O O
+강아지 머리에 진드기가 있어요,S-ANIMAL S-AREA O O
+강아지 허리에 진드기가 있어요,S-ANIMAL S-AREA O O
+고양이 배에 진드기가 있어,S-ANIMAL S-AREA O O
+배에 진드기가 있어,S-AREA O O
+고양이 가슴에 진드기가 있어,S-ANIMAL S-AREA O O
+가슴에 진드기가 있어,S-AREA O O
+고양이 발에 진드기가 있어,S-ANIMAL S-AREA O O
+발에 진드기가 있어,S-AREA O O
+고양이 머리에 진드기가 있어,S-ANIMAL S-AREA O O
+머리에 진드기가 있어,S-AREA O O
+고양이 허리에 진드기가 있어,S-ANIMAL S-AREA O O
+허리에 진드기가 있어,S-AREA O O
+강아지 배에 진드기가 있어,S-ANIMAL S-AREA O O
+강아지 가슴에 진드기가 있어,S-ANIMAL S-AREA O O
+강아지 발에 진드기가 있어,S-ANIMAL S-AREA O O
+강아지 머리에 진드기가 있어,S-ANIMAL S-AREA O O
+강아지 허리에 진드기가 있어,S-ANIMAL S-AREA O O
+고양이 배에 진드기가 있네,S-ANIMAL S-AREA O O
+배에 진드기가 있네,S-AREA O O
+고양이 가슴에 진드기가 있네,S-ANIMAL S-AREA O O
+가슴에 진드기가 있네,S-AREA O O
+고양이 발에 진드기가 있네,S-ANIMAL S-AREA O O
+발에 진드기가 있네,S-AREA O O
+고양이 머리에 진드기가 있네,S-ANIMAL S-AREA O O
+머리에 진드기가 있네,S-AREA O O
+고양이 허리에 진드기가 있네,S-ANIMAL S-AREA O O
+허리에 진드기가 있네,S-AREA O O
+강아지 배에 진드기가 있네,S-ANIMAL S-AREA O O
+강아지 가슴에 진드기가 있네,S-ANIMAL S-AREA O O
+강아지 발에 진드기가 있네,S-ANIMAL S-AREA O O
+강아지 머리에 진드기가 있네,S-ANIMAL S-AREA O O
+강아지 허리에 진드기가 있네,S-ANIMAL S-AREA O O
+고양이 배에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 가슴에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 발에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 머리에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 허리에 진드기가 있는데?,S-ANIMAL S-AREA O O
+배에 진드기가 있는데?,S-AREA O O
+가슴에 진드기가 있는데?,S-AREA O O
+발에 진드기가 있는데?,S-AREA O O
+머리에 진드기가 있는데?,S-AREA O O
+허리에 진드기가 있는데?,S-AREA O O
+배에 진드기가 있는데?,S-AREA O O
+강아지 가슴에 진드기가 있는데?,S-ANIMAL S-AREA O O
+강아지 발에 진드기가 있는데?,S-ANIMAL S-AREA O O
+강아지 머리에 진드기가 있는데?,S-ANIMAL S-AREA O O
+강아지 허리에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 배에 진드기,S-ANIMAL S-AREA O
+고양이 가슴에 진드기,S-ANIMAL S-AREA O
+고양이 발에 진드기,S-ANIMAL S-AREA O
+고양이 머리에 진드기,S-ANIMAL S-AREA O
+고양이 허리에 진드기,S-ANIMAL S-AREA O
+배에 진드기,S-AREA O
+가슴에 진드기,S-AREA O
+발에 진드기,S-AREA O
+머리에 진드기,S-AREA O
+허리에 진드기,S-AREA O
+강아지 배에 진드기,S-ANIMAL S-AREA O
+강아지 가슴에 진드기,S-ANIMAL S-AREA O
+강아지 발에 진드기,S-ANIMAL S-AREA O
+강아지 머리에 진드기,S-ANIMAL S-AREA O
+강아지 허리에 진드기,S-ANIMAL S-AREA O
+강아지 피부에 상처,S-ANIMAL O O
+고양이 피부에 상처,S-ANIMAL O O
+강아지 피부에 뭐가 났는데?,S-ANIMAL O O O
+고양이 피부에 뭐가 났는데?,S-ANIMAL O O O
+강아지 피부에 뭐가 났어,S-ANIMAL O O O
+고양이 피부에 뭐가 났어,S-ANIMAL O O O
+강아지 피부에 뭐가 남,S-ANIMAL O O O
+고양이 피부에 뭐가 남,S-ANIMAL O O O
+고양이 꼬리에 상처,S-ANIMAL O O
+강아지 꼬리에 상처,S-ANIMAL O O
+강아지 가슴에 상처,S-ANIMAL O O
+발에 상처,S-AREA O
+발에 상처,S-AREA O
+배에 상처,S-AREA O
+복부에 상처,S-AREA O
+강아지 배에 상처,S-ANIMAL S-AREA O
+강아지 복부에 상처,S-ANIMAL S-AREA O
+고양이 머리에 상처,S-ANIMAL S-AREA O
+고양이 귀에 상처,S-ANIMAL S-AREA O
+강아지 머리에 상처,S-ANIMAL S-AREA O
+강아지 귀에 상처,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 발에 상처,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 발에 상처,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 배에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 배에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 가슴에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 가슴에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 다리에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 다리에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 다리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 머리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 발에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 가슴에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 귀에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 등에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 다리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 머리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 발에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 가슴에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 귀에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 등에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 다리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 머리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 발에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 가슴에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 귀에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 등에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
+고양이 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
+피부에 비듬이 있어요,O S-SYMPTOM1 O
+강아지 피부에 습진,S-ANIMAL O S-SYMPTOM1
+고양이 피부에 습진,S-ANIMAL O S-SYMPTOM1
+피부에 습진,O S-SYMPTOM1
