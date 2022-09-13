@@ -1,0 +1,5 @@
+GensimEmbedder filter=lfs diff=lfs merge=lfs -text
+DistanceClassifier filter=lfs diff=lfs merge=lfs -text
+DistanceEstimator filter=lfs diff=lfs merge=lfs -text
+EntityRecognizer filter=lfs diff=lfs merge=lfs -text
+FallbackDetector filter=lfs diff=lfs merge=lfs -text

@@ -9,10 +9,5 @@ def test_kochat():
     contents = response.text
     print(contents)
 
-def test_ml():
-    url = 'http://43.200.87.239:5000/predict'
-    response = requests.get(url)
-    contents = response.text
-    print(contents)
-
-test_kochat()
+if __name__ == "__main__":
+    test_kochat()

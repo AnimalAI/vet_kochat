@@ -1,0 +1,4 @@
+. filter=lfs diff=lfs merge=lfs -text
+GensimEmbedder.gensim filter=lfs diff=lfs merge=lfs -text
+GensimEmbedder.gensim.trainables.vectors_ngrams_lockf.npy filter=lfs diff=lfs merge=lfs -text
+GensimEmbedder.gensim.wv.vectors_ngrams.npy filter=lfs diff=lfs merge=lfs -text

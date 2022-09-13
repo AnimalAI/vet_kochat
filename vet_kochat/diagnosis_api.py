@@ -22,5 +22,5 @@ class RandomForestDiagnosis:
             return text
 
 if __name__ == '__main__':
-    decisionTreeDiagnosis = DecisionTreeDiagnosis()
-    print(decisionTreeDiagnosis.request(ANIMAL='고양이',AREA='다리',SYMPTOM1='통증',SYMPTOM2='구토'))
+    diagnosis = RandomForestDiagnosis()
+    print(diagnosis.request(ANIMAL='고양이',AREA='다리',SYMPTOM1='통증',SYMPTOM2='구토'))
