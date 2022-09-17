@@ -1,22 +1,32 @@
 question,label
 고양이 피부가 이상해요,S-ANIMAL O O
 강아지 피부가 이상해요,S-ANIMAL O O
+개 피부가 이상해요,S-ANIMAL O O
 고양이 피부가 이상하고 식욕이 없어요,S-ANIMAL O O S-SYMPTOM1 O
+강아지 피부가 이상하고 식욕이 없어요,S-ANIMAL O O S-SYMPTOM1 O
 제가 친구들이랑 돌보는 고양이인데 이거 곰팡이 피부병 인가요??,O O O S-ANIMAL O S-SYMPTOM1 O O
+제가 친구들이랑 돌보는 강아지인데 이거 곰팡이 피부병 인가요??,O O O S-ANIMAL O S-SYMPTOM1 O O
 고양이 상처?,S-ANIMAL O
+강아지 상처?,S-ANIMAL O
 상처?,O
-고양이 귀 붓기,S-ANIMAL S-AREA O
 귀 붓기,S-AREA O
 길고양이 좁쌀처럼 생긴 하얀 진드기,S-ANIMAL O O O O
+강아지 좁쌀처럼 생긴 하얀 진드기,S-ANIMAL O O O O
+개 좁쌀처럼 생긴 하얀 진드기,S-ANIMAL O O O O
 사진의 진드기의 종류가 무엇인가요?,O O O O
 이게 곰팡이성 피부질환인가요?,O S-SYMPTOM1 O
 자주 보이는 길고양이인데 다리에 상처가 있습니다.,O O S-ANIMAL O O O
 고양이 피부병인가요?,S-ANIMAL O
+강아지 피부병인가요?,S-ANIMAL O
+개 피부병인가요?,S-ANIMAL O
 피부병인가요?,O
 이거 고양이 진드기인가요?,O S-ANIMAL O
+이거 강아지 진드기인가요?,O S-ANIMAL O
 저희 고양이가 입주변에 상처?뾰루지?,O S-ANIMAL O O
 지금 등 쪽에 딱딱한 멍울이 생겼어요 ㅠ,O O O O O O O
 고양이 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
+강아지 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
+개 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
 엉덩이 옆에 욕창 같은게 생겼어요,O O S-SYMPTOM1 O O
 링웜이맞는지 검사는필요없나요?,O O
 고양이 링웜,S-ANIMAL O
@@ -26,11 +36,17 @@ question,label
 고양이 3개월 됐고 귀에 있는 진드기 치료중입니다,S-ANIMAL O O O O O O
 귀에 있는 진드기 치료중입니다,O O O O
 고양이 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
+강아지 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
+개 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
 눈에서 상처 자국이 보입니다.,S-AREA O O O
 처음에는 털이 들어간줄 알았는데 상처더군요.,O O O O O
 고양이 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
+강아지 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
+개 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
 혓바닥에 상처들이 있어요,S-AREA O O
 고양이가 진드기에 물렸어요,S-ANIMAL O O
+개가 진드기에 물렸어요,S-ANIMAL O O
+강아지가 진드기에 물렸어요,S-ANIMAL O O
 진드기에 물렸어요,O O
 고양이 피부 봐주세요 ㅠㅠ,S-ANIMAL O O O
 피부 봐주세요 ㅠㅠ,O O O
@@ -49,8 +65,12 @@ question,label
 무슨 피부병인지 알고 가고 싶습니다.,O O O O O
 고양이 피부,S-ANIMAL O
 고양이 피부병 질문 ㅠㅠ,S-ANIMAL O O O
+강아지 피부병 질문 ㅠㅠ,S-ANIMAL O O O
+개 피부병 질문 ㅠㅠ,S-ANIMAL O O O
 피부병 질문 ㅠㅠ,O O O
 고양이 피부에 여드름 같은게 났어요,S-ANIMAL O O O O
+강아지 피부에 여드름 같은게 났어요,S-ANIMAL O O O O
+개 피부에 여드름 같은게 났어요,S-ANIMAL O O O O
 피부에 여드름 같은게 났어요,O O O O
 만약 피부병이 생기면 어떤 증상을 보이는지 좀 알려주세요ㅜㅜㅜ,O O O O O O O O
 피부는 깨끗한거 같은데 비듬이 계속 나오는 이유가 있을까요?,O O O O O O O O
@@ -70,9 +90,12 @@ question,label
 혹시 피부병인가요...?,O O
 혹시 고양이 피부병인가요...?,O S-ANIMAL O
 혹시 강아지 피부병인가요...?,O S-ANIMAL O
-마당에 키우는 강아지 진드기,O O S-ANIMAL O
+혹시 개 피부병인가요...?,O S-ANIMAL O
+마당에 키우는 강아지 진드기,O O S-ANIMAL S-SYMPTOM1
+마당에 키우는 고양이 진드기,O O S-ANIMAL O
 강아지 상처 꼬매야될 정돈가요?,S-ANIMAL O O O
 고양이 상처 꼬매야될 정돈가요?,S-ANIMAL O O O
+개 상처 꼬매야될 정돈가요?,S-ANIMAL O O O
 상처 꼬매야될 정돈가요?,O O O
 진드기때문인가요?,O
 아니면 피부병 때문인가요?,O O O
@@ -81,15 +104,18 @@ question,label
 상처인지 머가 난건지 모르겠어요 ㅠㅠ,O O O O O
 피부종양인가요?,O
 피부 종양인가요?,O S-SYMPTOM1
-개 뒷다리에 볼록한게 있어서 보니 사진처럼 저런게 생겼어요.피부종양인가요?,S-ANIMAL O O O O O O O
 피부 염증인가요?,O S-SYMPTOM1
 냥이 여드름 너무 자주 납니다ㅜ,O O O O O
+고양이 여드름 너무 자주 납니다ㅜ,O O O O O
+강아지 여드름 너무 자주 납니다ㅜ,O O O O O
+개 여드름 너무 자주 납니다ㅜ,O O O O O
 여드름 너무 자주 납니다ㅜ,O O O O
 강아지 링웜,S-ANIMAL O
-강아지 프론트라인(진드기약)을 바르고 난후 바로 산책했는데 괜찮을까요?,S-ANIMAL O O O O O O
 수의사선생님이 복강내 종괴도 얘기했습니다,O O O O
 비장은 종괴가 여러군데 보여서 둘 다 절제수술했습니다,O O O O O O O
 강아지 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
+고양이 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
+개 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
 발가락 골절 후 피부,S-AREA O O O
 이 피부병이 농피증인가요?,O O O
 사람피부병에 바르는 약을 바르면 어떻게되나요??,O O O O O
@@ -113,13 +139,16 @@ question,label
 고양이가 뾰루지가 났어요,S-ANIMAL O O
 강아지가 뾰루지가 났어,S-ANIMAL O O
 고양이가 뾰루지가 났어,S-ANIMAL O O
+개가 뾰루지가 났어,S-ANIMAL O O
 강아지가 뾰루지가 났네,S-ANIMAL O O
 고양이가 뾰루지가 났네,S-ANIMAL O O
+개가 뾰루지가 났네,S-ANIMAL O O
 강아지 피부터짐,S-ANIMAL O
 강아지 피부 터짐,S-ANIMAL O O
 피부 터짐,O O
 강아지 피부에 이런게 생겼는데 뭔가요,S-ANIMAL O O O O
 강아지 피부에 이런게 생겼는데 뭔가요??,S-ANIMAL O O O O
+개 피부에 이런게 생겼는데 뭔가요??,S-ANIMAL O O O O
 피부에 이런게 생겼는데 뭔가요??,O O O O
 강아지 몸에 진드기 붙었을 때,S-ANIMAL O O O O
 몸에 진드기 붙었을 때,O O O O
@@ -135,12 +164,17 @@ question,label
 진드기가 있는것 같아요,O O O
 강아지 욕창 치료 질문,S-ANIMAL O O O
 고양이 욕창 치료 질문,S-ANIMAL O O O
+개 욕창 치료 질문,S-ANIMAL O O O
 욕창 치료 질문,O O O
 강아지가 나이가  많아 하루종일 누워있다보니 욕창이 생겼습니다.,S-ANIMAL O O O O O O O
 강아지 피부에 이거 뭐예요?,S-ANIMAL O O O
 피부에 이거 뭐예요?,O O O
 고양이 피부에 이거 뭐예요?,S-ANIMAL O O O
+강아지 피부에 이거 뭐예요?,S-ANIMAL O O O
+개 피부에 이거 뭐예요?,S-ANIMAL O O O
 강아지 진드기 제거후 조치,S-ANIMAL O O O
+고양이 진드기 제거후 조치,S-ANIMAL O O O
+개 진드기 제거후 조치,S-ANIMAL O O O
 이거 진드기일까요 흑색종일까요,O O O
 진드기 무슨 종류인지 알 수 있을까요,O O O O O O
 강아지 귀 속 진드기,S-ANIMAL O O O
@@ -155,12 +189,15 @@ question,label
 상처가 진드기에 의한 피부병이에요?,O O O O
 강아지의 피부 질문드려요,S-ANIMAL O O
 고양이의 피부 질문드려요,S-ANIMAL O O
+개의 피부 질문드려요,S-ANIMAL O O
 피부 질문드려요,O O
 강아지 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-ANIMAL S-AREA O O
 고양이 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-ANIMAL S-AREA O O
+개 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-ANIMAL S-AREA O O
 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-AREA O O
 강아지 꼬리에 곪은상처 왜이럴까요?,S-ANIMAL S-AREA O O
 고양이 꼬리에 곪은상처 왜이럴까요?,S-ANIMAL S-AREA O O
+개 꼬리에 곪은상처 왜이럴까요?,S-ANIMAL S-AREA O O
 꼬리에 곪은상처 왜이럴까요?,S-AREA O O
 상처가있는데 피고름이 나오더라구요,O O O
 진드기?,O
@@ -310,8 +347,55 @@ question,label
 강아지 귀에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
 강아지 등에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
 강아지 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
+개 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 다리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 머리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 발에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 가슴에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 귀에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 등에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 다리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 머리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 발에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 가슴에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 귀에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 등에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 다리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 머리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 발에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 가슴에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 귀에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 등에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
 고양이 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
+개 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
 피부에 비듬이 있어요,O S-SYMPTOM1 O
 강아지 피부에 습진,S-ANIMAL O S-SYMPTOM1
 고양이 피부에 습진,S-ANIMAL O S-SYMPTOM1
+개 피부에 습진,S-ANIMAL O S-SYMPTOM1
 피부에 습진,O S-SYMPTOM1
+야 강아지 피부가 이상해,O S-ANIMAL O O
+야 고양이 피부가 이상해,O S-ANIMAL O O
+야 피부가 이상해,O O O
+강아지 피부병 궁금해,S-ANIMAL O O
+고양이 피부병 궁금해,S-ANIMAL O O
+피부병이 궁금해,O O
+강아지 피부에 뭐가 났는데 뭔지 궁금해,S-ANIMAL O O O O O
+강아지 피부에 뭐가 났는데 뭔지 궁금해,S-ANIMAL O O O O O
+개 피부에 뭐가 났는데 뭔지 궁금해,S-ANIMAL O O O O O
+피부에 뭐가 났는데 뭔지 궁금해,O O O O O
+피부와 관련된 질병 알려줘,O O O O
+피부 관련 질병 알려주세요,O O O O
+피부 관련된 질병은 뭐가 있어?,O O O O O
+피부 관련 질병,O O O
+피부 관련 질병 알려주겠니?,O O O O
+피부 관련 질병 말해봐,O O O O
+강아지 피부가 이상한데 왜이럴까?,O O O O
+고양이 피부가 이상한데 왜이럴까?,O O O O
+개 피부가 이상한데 왜이럴까?,O O O O
+피부가 빨갛고 부었어,O O O

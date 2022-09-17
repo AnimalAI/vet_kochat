@@ -1,16 +1,32 @@
 question,label
 강아지 눈 관련...,S-ANIMAL O O
 고양이 눈 관련...,S-ANIMAL O O
-강아지 눈 관련,S-ANIMAL O O
-고양이 눈 관련,S-ANIMAL O O
+눈 관련,S-ANIMAL O
+고양이 눈,S-ANIMAL O
+강아지 눈,S-ANIMAL O
+개 눈,S-ANIMAL O
+고양이 안구,S-ANIMAL O
+강아지 안구,S-ANIMAL O
+개 안구,S-ANIMAL O
+고양이 눈 이상,S-ANIMAL O O
+강아지 눈 이상,S-ANIMAL O O
+개 눈 이상,S-ANIMAL O O
+눈 이상,O O
 눈 관련...,O O
 고양이 눈이 이상해요,S-ANIMAL O O
 강아지 눈이 이상해요,S-ANIMAL O O
+개 눈이 이상해요,S-ANIMAL O O
+눈이 이상해요,S-ANIMAL O O
 고양이 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
 강아지 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
+개 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
+고양이가 무기력하고 눈이 이상해요,S-ANIMAL S-SYMPTOM1 O O
+강아지가 무기력하고 눈이 이상해요,S-ANIMAL S-SYMPTOM1 O O
+개가 무기력하고 눈이 이상해요,S-ANIMAL S-SYMPTOM1 O O
 강아지 눈이 이상하고 창백해요,S-ANIMAL O O S-SYMPTOM1
 고양이 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
 강아지 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
+개 눈이 이상하고 무기력
 눈이 이상하고 무기력해요,O O S-SYMPTOM1
 눈이 이상하고 무기력,O O S-SYMPTOM1
 눈이 이상해요,O O
@@ -19,8 +35,10 @@ question,label
 저희집 개 눈이 이상하고 창백해요,O S-ANIMAL O O S-SYMPTOM1
 강아지 눈 관련 질문드립니다,S-ANIMAL O O O
 고양이 눈 관련 질문드립니다,S-ANIMAL O O O
+개 눈 관련 질문드립니다,S-ANIMAL O O O
 강아지 눈 관련 질문드려요,S-ANIMAL O O O
 고양이 눈 관련 질문드려요,S-ANIMAL O O O
+개 눈 관련 질문드려요,S-ANIMAL O O O
 눈 관련 질문드려요,O O O
 저희집 개 눈이 이상해요,S-ANIMAL O O O
 강아지 눈이 왜 이럴까요?,S-ANIMAL O O O
@@ -96,6 +114,7 @@ question,label
 강아지 눈이 문제있나요?,S-ANIMAL O O
 고양이 눈이 문제있나요?,S-ANIMAL O O
 눈이 문제있나요?,O O
+눈에 문제있나요?,O O
 강아지 눈 봐주세요,S-ANIMAL O O
 고양이 눈 봐주세요,S-ANIMAL O O
 강아지가 눈을 못 떠요,S-ANIMAL O O O
@@ -105,12 +124,15 @@ question,label
 눈 이상,O O
 강아지 눈 주변이 빨개요ㅠㅠ,S-ANIMAL O O O
 고양이 눈 주변이 빨개요ㅠ,S-ANIMAL O O O
-눈 주변이 빨개요ㅠ,O O O
+강아지 눈 주변이 빨간데?,S-ANIMAL O O O
+고양이 눈 주변이 빨간데?,S-ANIMAL O O O
+눈 주변이 빨간데?,O O O
 강아지 눈 혼탁 충혈,S-ANIMAL O S-SYMPTOM1 O
 강아지 눈 혼탁 충혈,S-ANIMAL O S-SYMPTOM1 O
 눈 혼탁 충혈,O S-SYMPTOM2 O
 강아지 눈 흰자에 이상한거,S-ANIMAL O O O
 고양이 눈 흰자에 이상한거,S-ANIMAL O O O
+눈 흰자에 이상한거,O O O
 강아지 눈에 검정 이물질,S-ANIMAL O O S-SYMPTOM1
 고양이 눈에 검정 이물질,S-ANIMAL O O S-SYMPTOM1
 눈에 검정 이물질,O O S-SYMPTOM1
@@ -124,40 +146,66 @@ question,label
 눈에 이물질,O O
 강아지가 눈을 비벼요,S-ANIMAL O O
 고양이가 눈을 비벼요,S-ANIMAL O O
+개가 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+저희집 개가 눈이 건조해요,S-ANIMAL O O S-SYMPTOM1
+눈을 비벼요,O O
+고양이가 눈을 비비는데?
+강아지가 눈을 비비는데?
+개가 눈을 비비는데?
+눈을 비비는데?,O O
 강아지 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
 고양이 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+개 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+눈이 건조해요,O S-SYMPTOM1
+강아지 눈 건조,S-ANIMAL O S-SYMPTOM1
+고양이 눈 건조,S-ANIMAL O S-SYMPTOM1
+개 눈 건조,S-ANIMAL O S-SYMPTOM1
 눈이 건조해요,O S-SYMPTOM1
 눈 건조,O S-SYMPTOM1
 강아지 눈 실명,S-ANIMAL O S-SYMPTOM1
 고양이 눈 실명,S-ANIMAL O S-SYMPTOM1
+개 눈 실명,S-ANIMAL O S-SYMPTOM1
 눈 실명,O S-SYMPTOM1
 강아지 눈 돌출,S-ANIMAL O S-SYMPTOM1
 고양이 눈 돌출,S-ANIMAL O S-SYMPTOM1
+개 눈 돌출,S-ANIMAL O S-SYMPTOM1
 눈 돌출,O S-SYMPTOM1
 강아지 눈 진탕,S-ANIMAL O S-SYMPTOM1
 고양이 눈 진탕,S-ANIMAL O S-SYMPTOM1
+개 눈 진탕,S-ANIMAL O S-SYMPTOM1
 눈 진탕,O S-SYMPTOM1
 강아지 눈 종괴,S-ANIMAL O S-SYMPTOM1
 고양이 눈 종괴,S-ANIMAL O S-SYMPTOM1
+개 눈 종괴,S-ANIMAL O S-SYMPTOM1
 눈 종괴,O S-SYMPTOM1
 강아지 눈 종창,S-ANIMAL O S-SYMPTOM1
 고양이 눈 종창,S-ANIMAL O S-SYMPTOM1
+개 눈 종창,S-ANIMAL O S-SYMPTOM1
 눈 종창,O S-SYMPTOM1
 강아지 눈 기생충,S-ANIMAL O S-SYMPTOM1
 고양이 눈 기생충,S-ANIMAL O S-SYMPTOM1
+개 눈 기생충,S-ANIMAL O S-SYMPTOM1
 눈 기생충,O S-SYMPTOM1
-강아지 속눈썹 이상,S-ANIMAL O S-SYMPTOM1
-고양이 속눈썹 이상,S-ANIMAL O S-SYMPTOM1
+강아지 속눈썹 이상,S-ANIMAL S-SYMPTOM1 O
+고양이 속눈썹 이상,S-ANIMAL S-SYMPTOM1 O
+개 속눈썹 이상,S-ANIMAL S-SYMPTOM1 O
 속눈썹 이상,O S-SYMPTOM1
 강아지 동공 확대,S-ANIMAL O S-SYMPTOM1
 고양이 동공 확대,S-ANIMAL O S-SYMPTOM1
+개 동공 확대,S-ANIMAL O S-SYMPTOM1
 동공 확대,O S-SYMPTOM1
 강아지 눈꺼풀 처짐,S-ANIMAL O S-SYMPTOM1
 고양이 눈꺼풀 처짐,S-ANIMAL O S-SYMPTOM1
+개 눈꺼풀 처짐,S-ANIMAL O S-SYMPTOM1
 눈꺼풀 처짐,O S-SYMPTOM1
 강아지 눈떨림,S-ANIMAL S-SYMPTOM1
 고양이 눈떨림,S-ANIMAL S-SYMPTOM1
+개 눈떨림,S-ANIMAL S-SYMPTOM1
 눈떨림,S-SYMPTOM1
-강아지 동공 부종,S-ANIMAL S-SYMPTOM1 O
-고양이 동공 부종,S-ANIMAL S-SYMPTOM1 O
-동공 부종,O S-SYMPTOM1
+강아지 동공 이상,S-ANIMAL S-SYMPTOM1 O
+고양이 동공 이상,S-ANIMAL S-SYMPTOM1 O
+강아지 홍채 이상,S-ANIMAL S-SYMPTOM1 O
+고양이 동공 이상,S-ANIMAL S-SYMPTOM1 O
+저희집 고양이 눈이 이상해요,S-ANIMAL O O O
+저희접 강아지 눈이 이상해요 ,S-ANIMAL O O O
+저희접 개 눈이 이상해요 ,S-ANIMAL O O O
