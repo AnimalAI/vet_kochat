@@ -1,5 +1,4 @@
 import requests
-from bs4 import BeautifulSoup
 
 url = "http://43.200.87.239:5000"
 
@@ -12,16 +11,19 @@ class RandomForestDiagnosis:
             endIdx = result.index("</h2>")
             result = result[:endIdx]
 
+            if SYMPTOM1 == "무기":
+                SYMPTOM1 += "력"
+
             message = ""
-            if len(ANIMAL)==7:
+            if len(ANIMAL) == 7:
                 message += ANIMAL[0:3]
             else:
                 message += ANIMAL
-            if len(AREA)!=0:
+            if len(AREA) != 0:
                 message += (" "+str(AREA))
-            if len(AREA)!=0:
+            if len(AREA) != 0:
                 message += (" "+str(SYMPTOM1))
-            if len(AREA)!=0:
+            if len(AREA) != 0:
                 message += (" "+str(SYMPTOM2))
             message += "와 관련된 질병은 다음과 같습니다.\n"
             return message + result

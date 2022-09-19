@@ -21,7 +21,6 @@
 토를 해요,O O
 토를 한후 밥을 안먹어요,O O O O
 토를 한10회가량 하였습니다 노란토,O O O O
-토를 잘 안하던 아이인데 바르는 구충약을 처음 발라주던 날,O O O O O O O O O
 토를 자주해요,O O
 토를 근데 10분에 한번꼴로 계속하는데,O O O O O
 토?,O
@@ -114,7 +113,7 @@
 고양이가 토하고 체온이 낮아요,S-ANIMAL O S-SYMPTOM1 O
 고양이가 토하고 식욕이 없어요,S-ANIMAL O S-SYMPTOM1 O
 고양이가 토하고 설사해요,S-ANIMAL O S-SYMPTOM1
-고양이가 토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1
+고양이가 토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
 고양이가 토를했어요.... 걱정되는데 증상설명해주실분있나요,S-ANIMAL O O O
 고양이가 토를했어요.... 걱정되는데,S-ANIMAL O O
 고양이가 토를했어요,S-ANIMAL O
@@ -212,7 +211,7 @@
 강아지가 토하고 식욕이 없어요,S-ANIMAL O S-SYMPTOM1 O
 강아지가 토하고 설사해요,S-ANIMAL O S-SYMPTOM1
 강아지가 토하고 생식기에서 피가나요 도와주세요,S-ANIMAL O S-AREA S-SYMPTOM1 O
-강아지가 토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1
+강아지가 토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
 강아지가 토를해요,S-ANIMAL O
 강아지가 토를 했습니다.,S-ANIMAL O O
 강아지가 토를 했는데 토에서 회충같은게 나왔습니다.,S-ANIMAL O O O O O
@@ -226,7 +225,7 @@
 강아지가 자꾸 토해요,S-ANIMAL O O
 강아지가 자꾸 토하네,S-ANIMAL O O
 강아지가 자꾸 사료를 토해요,S-ANIMAL O O O
-강아지가 이렇게토해놨어요..,S-ANIMAL O O
+강아지가 이렇게토해놨어요..,S-ANIMAL O
 강아지가 이렇게 토해놨어요,S-ANIMAL O O
 강아지가 오늘 갑자기 토를 하네요.,S-ANIMAL O O O O
 강아지가 어제 갑자기 구토하네,S-ANIMAL O O O
@@ -332,11 +331,11 @@
 강아지가 재채기하고 토해,S-ANIMAL S-SYMPTOM1 O
 고양이가 재채기하고 토해,S-ANIMAL S-SYMPTOM1 O
 재채기하고 토해,S-SYMPTOM1 O
-강아지가 토하고 예민해요,S-ANIMAL S-SYMPTOM1 O
-고양이가 토해요 예민해요,S-ANIMAL S-SYMPTOM1 O
+강아지가 토하고 예민해요,S-ANIMAL O S-SYMPTOM1
+고양이가 토해요 예민해요,S-ANIMAL O S-SYMPTOM1
 토하고 예민해요,S-SYMPTOM1 O
-강아지가 토하고 예민해,S-ANIMAL S-SYMPTOM1 O
-고양이가 토해요 예민해,S-ANIMAL S-SYMPTOM1 O
+강아지가 토하고 예민해,S-ANIMAL O S-SYMPTOM1
+고양이가 토해요 예민해,S-ANIMAL O S-SYMPTOM1
 토하고 예민해,S-SYMPTOM1 O
 강아지가 뒷다리를 절고 구토해요,S-ANIMAL S-SYMPTOM1 O O
 고양이가 뒷다리를 절고 구토해요,S-ANIMAL S-SYMPTOM1 O O
@@ -376,7 +375,7 @@
 야 구토하잖아,O O
 구토 관련 질병알려줘,O O O
 구토에 대해서 알려줘,O O O
-토하는건 왜이러는거지,O O O
+토하는건 왜이러는거지,O O
 구토 증상 알려줘,O O O
 토하는데 왜이러는지 알려주세요,O O O
 고양이 구토 관련 질병 알려줘,O S-ANIMAL O O O
@@ -393,8 +392,8 @@
 강아지가 갑자기 토했는데 왜이럴까,S-ANIMAL O O O
 고양이가 갑자기 토했는데 왜이럴까,S-ANIMAL O O O
 야 구토 왜이래,O O O
-고양이 구토와 관련된 질병 알려주세요,S-ANIMAL O O O
-강아지 구토와 관련된 질병 알려주세요,S-ANIMAL O O O
+고양이 구토와 관련된 질병 알려주세요,S-ANIMAL O O O O
+강아지 구토와 관련된 질병 알려주세요,S-ANIMAL O O O O
 강아지 구토관련 질병 좀 알려주세요,S-ANIMAL O O O O
 고양이 구토관련 질병 좀 알려주세요,S-ANIMAL O O O O
 고양이 구토 관련 질병 알려주겠니?,S-ANIMAL O O O O

@@ -16,7 +16,7 @@ question,label
 고양이 눈이 이상해요,S-ANIMAL O O
 강아지 눈이 이상해요,S-ANIMAL O O
 개 눈이 이상해요,S-ANIMAL O O
-눈이 이상해요,S-ANIMAL O O
+눈이 이상해요,S-ANIMAL O
 고양이 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
 강아지 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
 개 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
@@ -26,7 +26,7 @@ question,label
 강아지 눈이 이상하고 창백해요,S-ANIMAL O O S-SYMPTOM1
 고양이 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
 강아지 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
-개 눈이 이상하고 무기력
+개 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
 눈이 이상하고 무기력해요,O O S-SYMPTOM1
 눈이 이상하고 무기력,O O S-SYMPTOM1
 눈이 이상해요,O O
@@ -149,9 +149,9 @@ question,label
 개가 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
 저희집 개가 눈이 건조해요,S-ANIMAL O O S-SYMPTOM1
 눈을 비벼요,O O
-고양이가 눈을 비비는데?
-강아지가 눈을 비비는데?
-개가 눈을 비비는데?
+고양이가 눈을 비비는데?,S-ANIMAL O O
+강아지가 눈을 비비는데?,S-ANIMAL O O
+개가 눈을 비비는데?,S-ANIMAL O O
 눈을 비비는데?,O O
 강아지 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
 고양이 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
@@ -207,5 +207,5 @@ question,label
 강아지 홍채 이상,S-ANIMAL S-SYMPTOM1 O
 고양이 동공 이상,S-ANIMAL S-SYMPTOM1 O
 저희집 고양이 눈이 이상해요,S-ANIMAL O O O
-저희접 강아지 눈이 이상해요 ,S-ANIMAL O O O
-저희접 개 눈이 이상해요 ,S-ANIMAL O O O
+저희집 강아지 눈이 이상해요,O S-ANIMAL O O
+저희집 개 눈이 이상해요,O S-ANIMAL O O
