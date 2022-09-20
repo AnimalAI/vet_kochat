@@ -1,0 +1,1308 @@
+question,label
+기침,O
+피 섞인 기침,O O O
+기침해요...,O
+기침하고 식욕이 없어요,O S-SYMPTOM1 O
+기침하고 설사,O S-SYMPTOM1
+기침하고 몸의 근육이 다 이완 된 것 처럼 보입니다,O O O O O O O O O
+기침을 해요,O O
+기침을 했어요,O O
+기침을 했습니다.,O O
+기침을 하고 밥을 안먹어요,O O O O
+기침을 자주해요,O O
+기침을 근데 10분에 한번꼴로 계속하는데,O O O O O
+기침?,O
+기침 질문합니다,O O
+기침 질문,O O
+기침 좀 봐주세요,O O O
+기침 문제 있나요?,O O O
+기침 기운없음 식욕부진,O O O
+기침,O
+키우던 고양이가 기침하고 밥을 안먹어요,O S-ANIMAL O O O
+키우던 강아지가 기침하고 밥을 안먹어요,O S-ANIMAL O O O
+최근 무마취로 미용후에 기침을 자꾸하네요,O O O O O
+좀 자주 기침을 해요 ㅠㅠ,O O O O O
+저희집 고양이가 자주 기침해요,O S-ANIMAL O O
+저희집 강아지가 자주 기침해요,O S-ANIMAL O O
+저희 집 강아지가 갑자기 눈이 하얘지고 기침하고 밥도 못먹고 그래요,O O S-ANIMAL O O O O O O O
+자주 기침해요,O O
+이제 1년 지난 고양이가 오늘 갑자기 기침을 하네요.,O O O S-ANIMAL O O O O
+이제 1년 지난 강아지가 오늘 갑자기 기침을 하네요.,O O O S-ANIMAL O O O O
+음식을 많이먹어서 그런건지 계속 기침해요,O O O O O
+오늘 갑자기 기침을 하네요.,O O O O
+오늘 갑자기 고양이가 기침했어요.,O O S-ANIMAL O
+오늘 2~3번 기침했고요.,O O O
+약 먹고 잘 지냈는데 오늘 보니까 기침을 또 하네요ㅠㅠㅠ,O O O O O O O O O
+아기 고양이 기침하고 설사,O S-ANIMAL O S-SYMPTOM1
+식후엔 기침,O O
+식후 기침,O O
+성묘 기침,O O
+성견 기침,O O
+"설사, 기침",S-SYMPTOM1 O
+기침해요 병원 가야 되나요?,O O O O
+새벽 6시쯤에 저희 다 자고 있는데 갑자기 기침했어요.,O O O O O O O O
+"새끼고양이 범백 치료 중에 설사, 기침 증상이 있는데요",S-ANIMAL O O O O O O O
+새끼 강아지 목욕 후 기침 및 발작,O S-ANIMAL O O O O O
+변도 잘 누고 소변도 잘 눴는데 갑자기 기침을 하니..,O O O O O O O O O
+"동물병원 약을 자꾸 뱉고 기침하고 그러는데요,",O O O O O O
+기침해요 급합니다,O O
+근데 어제부터 기침을 반복적으로 많이 해요 ㅠㅠ,O O O O O O O
+기침과 식욕없음,O S-SYMPTOM1
+"기침, 설사 혈변, 떠는증상",O S-SYMPTOM1 S-SYMPTOM2 O
+기침하고 설사를 합니다,O S-SYMPTOM1 O
+기침 침흘림,O S-SYMPTOM1
+기침 창백,O S-SYMPTOM1
+기침 안절부절,O S-SYMPTOM1
+기침 사팔눈,O S-SYMPTOM1
+기침 무기력,O S-SYMPTOM1
+기침 땀흘림,O S-SYMPTOM1
+기침 늘어짐,O S-SYMPTOM1
+"기침, 사료 잘 안먹을때",O O O O
+고양이가 헉헉대면서 계속 헛구역질을합니다,S-ANIMAL O O O
+고양이가 기침해요 ㅠㅠ,S-ANIMAL O O
+고양이가 기침해요...,S-ANIMAL O
+고양이가 기침해요,S-ANIMAL O
+고양이가 기침하고 체온이 낮아요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침하고 식욕이 없어요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침하고 설사해요,S-ANIMAL O S-SYMPTOM1
+고양이가 기침하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침해요.... 걱정되는데 증상설명해주실분있나요,S-ANIMAL O O O
+고양이가 기침을 했어요.... 걱정되는데,S-ANIMAL O O O
+고양이가 기침을했어요,S-ANIMAL O
+고양이가 기침을 합니다.,S-ANIMAL O O
+고양이가 기침을 해요,S-ANIMAL O O
+고양이가 기침을 자주해요,S-ANIMAL O O
+고양이가 기침을 너무 자주해요,S-ANIMAL O O O
+고양이가 기침?,S-ANIMAL O
+고양이가 좀 자주 기침을 해요 ㅠㅠ,S-ANIMAL O O O O O
+고양이가 자주 기침해요,S-ANIMAL O O
+고양이가 자꾸 기침해요ㅠㅠ,S-ANIMAL O O
+고양이가 자꾸 기침을 해요,S-ANIMAL O O O
+고양이가 자꾸 기침하네,S-ANIMAL O O
+고양이가 오늘 갑자기 기침을 하네요.,S-ANIMAL O O O O
+고양이가 오늘 갑자기 기침을 하네요.,S-ANIMAL O O O O
+고양이가 어제 갑자기 기침하네,S-ANIMAL O O O
+고양이가 기침하고 기력없음,S-ANIMAL O S-SYMPTOM1
+고양이가 기침 하고 설사를 합니다,S-ANIMAL O O S-SYMPTOM1 O
+고양이가 기침,S-ANIMAL O
+고양이 혈뇨 + 기침 관련,S-ANIMAL S-SYMPTOM1 O O O
+고양이 기침 기운없음 식욕부진,S-ANIMAL O O O
+고양이 점액질변 기침 ㅠㅠ,S-ANIMAL S-SYMPTOM1 O O
+"고양이 설사, 기침, 사료 안먹는 증상",S-ANIMAL S-SYMPTOM1 O O O O
+"고양이 설사, 기침",S-ANIMAL S-SYMPTOM1 O
+고양이 설사 기침 증상이 간헐적으로 나타납니다.,S-ANIMAL O O O O O
+고양이 기침 질문,S-ANIMAL O O
+고양이 기침 증상,S-ANIMAL O O
+고양이 기 식욕없음,S-ANIMAL O S-SYMPTOM1
+"고양이 기침, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 O O
+고양이 기침 침흘림,S-ANIMAL O S-SYMPTOM1
+고양이 기침 창백,S-ANIMAL O S-SYMPTOM1
+고양이 기침 안절부절,S-ANIMAL O S-SYMPTOM1
+고양이 기침 사팔눈,S-ANIMAL O S-SYMPTOM1
+고양이 기침 무기력,S-ANIMAL O S-SYMPTOM1
+고양이 기침 땀흘림,S-ANIMAL O S-SYMPTOM1
+고양이 기침 도와주세요ㅠ,S-ANIMAL O O
+고양이 기침 늘어짐,S-ANIMAL O S-SYMPTOM1
+고양이 기침,S-ANIMAL O
+"고양이 기침, 사료 잘 안먹을때",S-ANIMAL O O O O
+고양이 3일째 사료안먹고 기침,S-ANIMAL O O O
+계속해서 기침을 하니 걱정이됩니다.,O O O O
+계속 기침해요,O O
+계속 기침을 해요..,O O O
+강아지가 헉헉대면서 계속 헛구역질을합니다,S-ANIMAL O O O
+강아지가 기침했어요 ㅠㅠ,S-ANIMAL O O
+강아지가 기침해요ㅠㅠ,S-ANIMAL O
+강아지가 기침해요,S-ANIMAL O
+강아지가 기침하고 체온이 낮아요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 기침하고 식욕이 없어요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 기침하고 설사해요,S-ANIMAL O S-SYMPTOM1
+강아지가 기침하고 생식기에서 피가나요 도와주세요,S-ANIMAL O S-AREA S-SYMPTOM1 O
+강아지가 기침하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 기침을 해요,S-ANIMAL O O
+강아지가 기침을 했습니다.,S-ANIMAL O O
+강아지가 기침을 진짜 자주해요,S-ANIMAL O O O
+강아지가 기침을 자주해요,S-ANIMAL O O
+강아지가 기침을 너무 자주해요,S-ANIMAL O O O
+강아지가 기침?,S-ANIMAL O
+강아지가 좀 자주 기침을 해요 ㅠㅠ,S-ANIMAL O O O O O
+강아지가 자주 기침해요,S-ANIMAL O O
+강아지가 자꾸 기침하네,S-ANIMAL O O
+강아지가 밥을 잘안먹고 기침해요..,S-ANIMAL O O O
+강아지가 기침해요 무슨 문제 있는건가요..?,S-ANIMAL O O O O
+강아지가 기침,S-ANIMAL O
+강아지가 껌을 먹고 기침해요 급합니다,S-ANIMAL O O O O
+강아지가 껌을 먹고 기침해요,S-ANIMAL O O O
+강아지가 기침하고 설사해요,S-ANIMAL O O
+강아지가 기침하고 설사를 합니다,S-ANIMAL O S-SYMPTOM1 O
+강아지가 기침하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 기침하고 기력없음,S-ANIMAL O S-SYMPTOM1
+강아지가 기침을 하고 사료도 안먹고 원래는 활발한데 기력도 없어요.,S-ANIMAL O O O O O O O O
+강아지가 기침을 자주해요,S-ANIMAL O O
+강아지가 계속 기침해요,S-ANIMAL O O
+강아지가 기침을 해요,S-ANIMAL O O
+강아지가 갑자기 기침 합니다.,S-ANIMAL O O O
+강아지가 갑자기 기침하네,S-ANIMAL O O
+"강아지 기침, 호흡곤란",S-ANIMAL O S-SYMPTOM1
+강아지 기침 질문합니다,S-ANIMAL O O
+강아지 기침 질문이요,S-ANIMAL O O
+강아지 기침 질문,S-ANIMAL O O
+강아지 기침 좀 봐주세요ㅠ,S-ANIMAL O O O
+강아지 기침 좀 봐주세요,S-ANIMAL O O O
+강아지 기침 문제 있나요?,S-ANIMAL O O O
+강아지 기침 기운없음 식욕부진,S-ANIMAL O O O
+"강아지 설사, 기침, 사료 안먹는 증상",S-ANIMAL S-SYMPTOM1 O O O O
+"강아지 설사, 기침",S-ANIMAL S-SYMPTOM1 O
+강아지 기침질문,S-ANIMAL O
+강아지 기침증상,S-ANIMAL O
+강아지 기침와 식욕없음,S-ANIMAL O S-SYMPTOM1
+강아지 기침? 오줌에 덩어리,S-ANIMAL O O O
+"강아지 기침, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 O O
+강아지 기침 침흘림,S-ANIMAL O S-SYMPTOM1
+강아지 기침 창백,S-ANIMAL O S-SYMPTOM1
+강아지 기침 안절부절,S-ANIMAL O S-SYMPTOM1
+강아지 기침 사팔눈,S-ANIMAL O S-SYMPTOM1
+강아지 기침 무기력,S-ANIMAL O S-SYMPTOM1
+강아지 기침 땀흘림,S-ANIMAL O S-SYMPTOM1
+강아지 기침 도와주세요ㅠ,S-ANIMAL O O
+강아지 기침 늘어짐,S-ANIMAL O S-SYMPTOM1
+강아지 기침,S-ANIMAL O
+강아지 기침,S-ANIMAL O
+"강아지 기침, 사료 잘 안먹을때",S-ANIMAL O O O O
+강아지 3일째 사료안먹고 기침,S-ANIMAL O O O
+갑자기 기침해요,O O
+갑자기 기침하네,O O
+갑자기 기침을 합니다.,O O O
+갑자기 기침을 자주 해요ㅠㅠ,O O O O
+갑자기 그날에 기침하고 설사를 했습니다.,O O O O O
+강아지가 기침하고 호흡이 이상해요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침하고 호흡이 이상해요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 기침하고 호흡이 이상해,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침하고 호흡이 이상해,S-ANIMAL O S-SYMPTOM1 O
+기침하고 호흡이 이상해,O S-SYMPTOM1 O
+기침하고 호흡이 이상해요,O S-SYMPTOM1 O
+강아지가 기침하고 오한이 있어요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침하고 오한이 있어요,S-ANIMAL O S-SYMPTOM1 O
+기침하고 오한이 있어요,O S-SYMPTOM1 O
+강아지가 기침하고 오한이 있어,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침하고 오한이 있어,S-ANIMAL O S-SYMPTOM1 O
+기침하고 오한이 있어,O S-SYMPTOM1 O
+강아지가 기침하고 발열이 있어요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침하고 발열이 있어요,S-ANIMAL O S-SYMPTOM1 O
+기침하고 발열이 있어요,O S-SYMPTOM1 O
+강아지가 기침하고 발열이 있어,S-ANIMAL O S-SYMPTOM1 O
+고양이가 기침하고 발열이 있어,S-ANIMAL O S-SYMPTOM1 O
+기침하고 발열이 있어,O S-SYMPTOM1 O
+강아지가 설사하고 기침해요,S-ANIMAL S-SYMPTOM1 O
+고양이가 설사하고 기침해요,S-ANIMAL S-SYMPTOM1 O
+설사하고 기침해요,S-SYMPTOM1 O
+강아지가 설사하고 기침해,S-ANIMAL S-SYMPTOM1 O
+고양이가 설사하고 기침해,S-ANIMAL S-SYMPTOM1 O
+설사하고 기침해,S-SYMPTOM1 O
+강아지가 재채기하고 기침해요,S-ANIMAL S-SYMPTOM1 O
+고양이가 재채기하고 기침해요,S-ANIMAL S-SYMPTOM1 O
+재채기하고 기침해요,S-SYMPTOM1 O
+강아지가 재채기하고 기침해,S-ANIMAL S-SYMPTOM1 O
+고양이가 재채기하고 기침해,S-ANIMAL S-SYMPTOM1 O
+재채기하고 기침해,S-SYMPTOM1 O
+강아지가 기침하고 예민해요,S-ANIMAL O S-SYMPTOM1
+고양이가 기침하고 예민해요,S-ANIMAL O S-SYMPTOM1
+기침하고 예민해요,S-SYMPTOM1 O
+강아지가 기침하고 예민해,S-ANIMAL O S-SYMPTOM1
+고양이가 기침하고 예민해,S-ANIMAL O S-SYMPTOM1
+기침하고 예민해,S-SYMPTOM1 O
+강아지가 뒷다리를 절고 기침해요,S-ANIMAL S-SYMPTOM1 O O
+고양이가 뒷다리를 절고 기침해요,S-ANIMAL S-SYMPTOM1 O O
+뒷다리를 절고 기침해요,S-SYMPTOM1 O O
+강아지가 뒷다리를 절고 기침해,S-ANIMAL S-SYMPTOM1 O O
+고양이가 뒷다리를 절고 기침해,S-ANIMAL S-SYMPTOM1 O O
+뒷다리를 절고 기해,S-SYMPTOM1 O O
+강아지가 기침하고 잇몸이 창백해요,S-ANIMAL O S-AREA S-SYMPTOM1
+고양이가 기침하고 잇몸이 창백해요,S-ANIMAL O S-AREA S-SYMPTOM1
+기침하고 잇몸이 창백해요,O S-AREA S-SYMPTOM1
+강아지가 기침하고 잇몸이 창백해,S-ANIMAL O S-AREA S-SYMPTOM1
+고양이가 기침하고 잇몸이 창백해,S-ANIMAL O S-AREA S-SYMPTOM1
+기침하고 잇몸이 창백해,O S-AREA S-SYMPTOM1
+강아지가 기침하고 뒷다리가 뻣뻣해요,S-ANIMAL O S-AREA S-SYMPTOM1
+고양이가 기침하고 뒷다리가 뻣뻣해요,S-ANIMAL O S-AREA S-SYMPTOM1
+기침하고 뒷다리가 뻣뻣해요,O S-AREA S-SYMPTOM1
+강아지가 기침하고 뒷다리가 뻣뻣해,S-ANIMAL S-SYMPTOM1 O O
+고양이가 기침하고 뒷다리가 뻣뻣해,S-ANIMAL O S-AREA S-SYMPTOM1
+기침하고 뒷다리가 뻣뻣해,O S-AREA S-SYMPTOM1
+고양이가 콧물을 흘리고 기침해요,S-ANIMAL S-SYMPTOM1 O O
+강아지가 콧물을 흘리고 기침해요,S-ANIMAL S-SYMPTOM1 O O
+콧물을 흘리고 기침해요,S-SYMPTOM1 O O
+고양이가 콧물을 흘리고 기침해,S-ANIMAL S-SYMPTOM1 O O
+강아지가 콧물을 흘리고 기침해,S-ANIMAL S-SYMPTOM1 O O
+콧물을 흘리고 기침해,S-SYMPTOM1 O O
+강아지가 오한이 있고 기침해,S-ANIMAL S-SYMPTOM1 O O
+고양이가 오한이 있고 기침해,S-ANIMAL S-SYMPTOM1 O O
+오한이 있고 기침해,S-SYMPTOM1 O O
+강아지가 오한이 있고 기침해,S-ANIMAL S-SYMPTOM1 O O
+고양이가 오한이 있고 기침해,S-ANIMAL S-SYMPTOM1 O O
+오한이 있고 기침해,S-SYMPTOM1 O O
+강아지가 기침하는데 왜이럴까,S-ANIMAL O O
+고양이가 기침하는데 왜이럴까,S-ANIMAL O O
+야 강아지가 기침해,O S-ANIMAL O
+야 고양이가 기침해,O S-ANIMAL O
+야 기침하는데?,O O
+야 기침하잖아,O O
+기침 관련 질병알려줘,O O O
+기침에 대해서 알려줘,O O O
+기침하는건 왜이러는거지,O O
+기침 증상 알려줘,O O O
+기침하는데 왜이러는지 알려주세요,O O O
+고양이 기침 관련 질병 알려줘,O S-ANIMAL O O O
+강아지 기침 관련 질병 알려줘,O S-ANIMAL O O O
+기침 관련된 질병 어떤게 있는지 알려줘,O O O O O O
+기침 관련 질병 부탁하겠습니다,O O O O
+기침 관련 질병,O O O
+강아지가 기침했는데 어디 아픈건가?,S-ANIMAL O O O
+고양이가 기침했는데 어디 아픈건가?,S-ANIMAL O O O
+강아지가 기침했는데 무슨 문제인지 알려줘,S-ANIMAL O O O O
+고양이가 기침했는데 무슨 문제인지 알려줘,S-ANIMAL O O O O
+강아지 기침관련 질병 궁금해,S-ANIMAL O O O
+고양이 기침관련 질병 궁금해,S-ANIMAL O O O
+강아지가 갑자기 기침했는데 왜이럴까,S-ANIMAL O O O
+고양이가 갑자기 기침했는데 왜이럴까,S-ANIMAL O O O
+야 기침 왜이래,O O O
+고양이 기침과 관련된 질병 알려주세요,S-ANIMAL O O O O
+강아지 기침과 관련된 질병 알려주세요,S-ANIMAL O O O O
+강아지 기침관련 질병 좀 알려주세요,S-ANIMAL O O O O
+고양이 기침관련 질병 좀 알려주세요,S-ANIMAL O O O O
+고양이 기침 관련 질병 알려주겠니?,S-ANIMAL O O O O
+강아지 기침 관련 질병 알려주겠니?,S-ANIMAL O O O O
+기침 관련 질병 알려주겠니?,O O O O
+강아지 기침이 너무 심해요,S-ANIMAL O O O
+고양이 기침이 너무 심해요,S-ANIMAL O O O
+기침이 너무 심해요,O O O
+강아지가 가래 뱉으면서 기침해요,S-ANIMAL O O O
+고양이가 가래 뱉으면서 기침해요,S-ANIMAL O O O
+가래 뱉으면서 기침해요,O O O
+새끼 강아지가 기침을 심하게해요,O S-ANIMAL S-SYMPTOM1 O
+새끼 고양이가 기침을 심하게해요,O S-ANIMAL S-SYMPTOM1 O
+기침을 심하게해요,S-SYMPTOM1 O
+강아지가 기침을 많이 해요,S-ANIMAL O O O
+고양이가 기침을 많이 해요,S-ANIMAL O O O
+기침을 많이 해요,O O O
+강아지 기침 증상 도와주세요,S-ANIMAL O O O
+고양이 기침 증상 도와주세요,S-ANIMAL O O O
+기침 증상 도와주세요,O O O
+강아지 기침 현상 가쁜호흡,S-ANIMAL O O S-SYMPTOM1
+강아지 기침 현상 개구호흡,S-ANIMAL O O S-SYMPTOM1
+고양이 기침 현상 가쁜호흡,S-ANIMAL O O S-SYMPTOM1
+고양이 기침 현상 개구호흡,S-ANIMAL O O S-SYMPTOM1
+고양이 기침 현상 재채기,S-ANIMAL O O S-SYMPTOM1
+강아지 기침 현상 재채기,S-ANIMAL O O S-SYMPTOM1
+기침 현상 개구호흡,O O S-SYMPTOM1
+강아지 콧물 기침,S-ANIMAL S-SYMPTOM1 O
+고양이 콧물 기침,S-ANIMAL S-SYMPTOM1 O
+콧물 기침,S-SYMPTOM1 O
+강아지 잔기침,S-ANIMAL O
+고양이 잔기침,S-ANIMAL O
+한 일주일전에 새벽에 토랑 설사를 4번이나 했었어요.,O O O O O O O
+한 1주일정도 노란색 구토를 합니다.,O O O O O
+하얀색 토를 4번이나 해요,O O O O
+피토,O
+피 섞인 노란 토,O O O
+토해요...,O
+토해요,O
+토한후에 사료는 아직 안먹고있어요,O O O O
+토하고 식욕이 없어요,O S-SYMPTOM1 O
+토하고 설사,O S-SYMPTOM1
+토하고 몸의 근육이 다 이완 된 것 처럼 보입니다,O O O O O O O O O
+토에서 꿈틀거리는 것이 나왔습니다.,O O O O
+토사물을 보면 그냥 하얀색깔 토구요,O O O O O
+토를해요,O
+토를 했어요,O O
+토를 했습니다.,O O
+토를 했는데 토에서 회충같은게 나왔습니다.,O O O O O
+토를 해요,O O
+토를 한후 밥을 안먹어요,O O O O
+토를 한10회가량 하였습니다 노란토,O O O O
+토를 자주해요,O O
+토를 근데 10분에 한번꼴로 계속하는데,O O O O O
+토?,O
+토 질문합니다,O O
+토 질문,O O
+토 좀 봐주세요,O O O
+토 문제 있나요?,O O O
+토 기운없음 식욕부진,O O O
+토,O
+키우던 고양이가 토를 한후 밥을 안먹어요,O S-ANIMAL O O O O
+키우던 강아지가 토를 한후 밥을 안먹어요,O S-ANIMAL O O O O
+최근 무마취로 미용후에 토를 자꾸하네요,O O O O O
+좀 자주 토를 해요 ㅠㅠ,O O O O O
+제가 안 본 사이에 피 섞인 노란 토를 해놨어요,O O O O O O O O O
+저희집 고양이가 자주 토해요,O S-ANIMAL O O
+저희집 고양이가 자주 구토해요,O S-ANIMAL O O
+저희집 강아지가 자주 토해요,O S-ANIMAL O O
+저희집 강아지가 자주 구토해요,O S-ANIMAL O O
+저희 집 강아지가 갑자기 눈이 하얘지고 구토하고 밥도 못먹고 그래요,O O S-ANIMAL O O O O O O O
+자주 토해요,O O
+자주 구토해요,O O
+자꾸 토해요,O O
+자꾸 토하네,O O
+자꾸 사료를 토해요,O O O
+이제 1년 지난 고양이가 오늘 갑자기 토를 하네요.,O O O S-ANIMAL O O O O
+이제 1년 지난 강아지가 오늘 갑자기 토를 하네요.,O O O S-ANIMAL O O O O
+음식을 많이먹어서 그런건지 계속 토해요,O O O O O
+오늘 점심 1시경에 강아지가 갑자기 토를 하더니 조금전에 또 토를 했어요.,O O O S-ANIMAL O O O O O O O
+오늘 갑자기 토를 하네요.,O O O O
+오늘 갑자기 고양이가 토했어요.,O O S-ANIMAL O
+오늘 2~3번 토했고요.,O O O
+약 먹고 잘 지냈는데 오늘 보니까 흰색 토를 또 해놨네요ㅠㅠㅠ,O O O O O O O O O O
+아기고양이 사료 토하고 설사,S-ANIMAL S-SYMPTOM1 S-SYMPTOM2 O
+"아기강아지 공복토, 사료 잘 안먹을때",S-ANIMAL O O O O
+식후엔 갈색토,O O
+식후 갈색토,O O
+성묘 구토,O O
+성견 구토,O O
+"설사, 구토",S-SYMPTOM1 O
+섞인 토 했어요 병원 가야 되나요?,O O O O O O
+새벽 6시쯤에 저희 다 자고 있는데 갑자기 토했어요.,O O O O O O O O
+"새끼고양이 범백 치료 중에 설사,물토 증상이 있는데요",S-ANIMAL O O O O O O
+새끼 강아지 목욕 후 구토 및 발작,O S-ANIMAL O O O O O
+사료만먹으면 토를해요.,O O
+사료를 토해요,O O
+사료 토,O O
+사료 구토,O O
+불투명한 끈적한 물가래 비슷한걸 토합니다,O O O O O
+변도 잘 누고 소변도 잘 눴는데 갑자기 토를 하니..,O O O O O O O O O
+방금 고양이가 토했어,O S-ANIMAL O
+방금 고양이가 토를 했어,O S-ANIMAL O O
+방금 고양이가 토 했어,O S-ANIMAL O O
+방금 강아지가 토했어,O S-ANIMAL O
+방금 강아지가 토를 했어,O S-ANIMAL O O
+방금 강아지가 토 했어,O S-ANIMAL O O
+"동물병원 약을 자꾸 뱉고 토하고 그러는데요,",O O O O O O
+껌을 먹고 토해요 급합니다,O O O O
+기생충을 토했어요..,O O
+기생충을 토했어,O O
+기생충을 토해,O O
+기생충을 토하네,O O
+기생충 토,O O
+근데 어제 부터 토를 반복적으로 많이 해요 ㅠㅠ,O O O O O O O O
+근데 어제 먹은걸 한 번 토했길래 혹시나 싶어서,O O O O O O O O
+구토와 식욕없음,O S-SYMPTOM1
+구토만 대여섯번 했나.. 침대에도 있고..,O O O O O
+구토를 자주해요,O O
+구토?,O
+"구토, 설사 혈변, 떠는증상",O S-SYMPTOM1 S-SYMPTOM2 O
+구토 하고 설사를 합니다,O O S-SYMPTOM1 O
+구토 침흘림,O S-SYMPTOM1
+구토 창백,O S-SYMPTOM1
+구토 안절부절,O S-SYMPTOM1
+구토 사팔눈,O S-SYMPTOM1
+구토 무기력,O S-SYMPTOM1
+구토 땀흘림,O S-SYMPTOM1
+구토 늘어짐,O S-SYMPTOM1
+구토,O
+구역질,O
+"공복토, 사료 잘 안먹을때",O O O O
+고양이는 헤어볼을 토하잖아요,S-ANIMAL O O
+고양이나 강아지가 안보는사이에 토를한건지 뭔지 모르겠어요;;,S-ANIMAL S-ANIMAL O O O O
+고양이가 헤어볼 토할때,S-ANIMAL O O
+고양이가 헉헉대면서 계속 헛구역질을합니다,S-ANIMAL O O O
+고양이가 토했어요 ㅠㅠ,S-ANIMAL O O
+고양이가 토해요ㅠ,S-ANIMAL O
+고양이가 토해요...,S-ANIMAL O
+고양이가 토해요,S-ANIMAL O
+고양이가 토하고 체온이 낮아요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토하고 식욕이 없어요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토하고 설사해요,S-ANIMAL O S-SYMPTOM1
+고양이가 토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토를했어요.... 걱정되는데 증상설명해주실분있나요,S-ANIMAL O O O
+고양이가 토를했어요.... 걱정되는데,S-ANIMAL O O
+고양이가 토를했어요,S-ANIMAL O
+고양이가 토를해요,S-ANIMAL O
+고양이가 토를한건지 설사를 한건지 모르겠는데 병원에 가봐야 할까요?,S-ANIMAL O O O O O O O
+고양이가 토를 했어요,S-ANIMAL O O
+고양이가 토를 했습니다.,S-ANIMAL O O
+고양이가 토를 했는데 토에서 회충같은게 나왔습니다.,S-ANIMAL O O O O O
+고양이가 토를 해요,S-ANIMAL O O
+고양이가 토를 자주해요,S-ANIMAL O O
+고양이가 토를 자주해요,S-ANIMAL O O
+고양이가 토를 너무 자주해요,S-ANIMAL O O O
+고양이가 토?,S-ANIMAL O
+고양이가 좀 자주 토를 해요 ㅠㅠ,S-ANIMAL O O O O O
+고양이가 자주 토해요,S-ANIMAL O O
+고양이가 자주 구토해요,S-ANIMAL O O
+고양이가 자꾸 토해요ㅠㅠ,S-ANIMAL O O
+고양이가 자꾸 토해요,S-ANIMAL O O
+고양이가 자꾸 토하네,S-ANIMAL O O
+고양이가 자꾸 사료를 토해요ㅠ 도와주세요..,S-ANIMAL O O O O
+고양이가 자꾸 사료를 토해요,S-ANIMAL O O O
+고양이가 이렇게토해놨어요..,S-ANIMAL O
+고양이가 이렇게 토해놨어요,S-ANIMAL O O
+고양이가 오늘 갑자기 토를 하네요.,S-ANIMAL O O O O
+고양이가 오늘 갑자기 토를 하네요.,S-ANIMAL O O O O
+고양이가 어제 갑자기 구토하네,S-ANIMAL O O O
+고양이가 사료를 토해요,S-ANIMAL O O
+고양이가 밥을 잘안먹고 토해요..,S-ANIMAL O O O
+고양이가 껌을 먹고 토해요 급합니다,S-ANIMAL O O O O
+고양이가 껌을 먹고 토해요,S-ANIMAL O O O
+고양이가 기생충을 토했어요..,S-ANIMAL O O
+고양이가 기생충을 토했어,S-ANIMAL O O
+고양이가 기생충을 토해,S-ANIMAL O O
+고양이가 기생충을 토하네,S-ANIMAL O O
+고양이가 구토하고 기력없음,S-ANIMAL O S-SYMPTOM1
+고양이가 구토를 하고 사료도 안먹고 원래는 활발한데 기력도 없어요.,S-ANIMAL O O O O O O O O
+고양이가 구토를 자주해요,S-ANIMAL O O
+고양이가 구토 하고 설사를 합니다,S-ANIMAL O O S-SYMPTOM1 O
+고양이가 구토,S-ANIMAL O
+고양이가 구역질해요,S-ANIMAL S-SYMPTOM1
+고양이가 계속 토해요,S-ANIMAL O O
+고양이가 거품토를 해요,S-ANIMAL O O
+고양이가 갑자기 토를 합니다.,S-ANIMAL O O O
+고양이가 갑자기 토를 자주 해요ㅠㅠ,S-ANIMAL O O O O
+고양이가 갑자기 구토하네,S-ANIMAL O O
+고양이 혈뇨 + 구토 관련,S-ANIMAL S-SYMPTOM1 O O O
+고양이 피토,S-ANIMAL O
+고양이 피 섞인 노란 토,S-ANIMAL O O O O
+고양이 토에서 꿈틀거리는 것이 나왔습니다.,S-ANIMAL O O O O
+고양이 토 질문합니다,S-ANIMAL O O
+고양이 토 질문,S-ANIMAL O O
+고양이 토 질문,S-ANIMAL O O
+고양이 토 좀 봐주세요ㅠ,S-ANIMAL O O O
+고양이 토 좀 봐주세요,S-ANIMAL O O O
+고양이 토 문제 있나요?,S-ANIMAL O O O
+고양이 토 기운없음 식욕부진,S-ANIMAL O O O
+고양이 토 갈색 토 이거 뭔가요?,S-ANIMAL O O O O O
+고양이 토,S-ANIMAL O
+고양이 점액질변 사료토 ㅠㅠ,S-ANIMAL S-SYMPTOM1 O O
+고양이 음식토&옅은 갈색토,S-ANIMAL O O
+"고양이 설사, 구토, 사료 안먹는 증상",S-ANIMAL S-SYMPTOM1 O O O O
+"고양이 설사, 구토",S-ANIMAL S-SYMPTOM1 O
+고양이 설사 구토 증상이 간헐적으로 나타납니다.,S-ANIMAL O O O O O
+고양이 사료 토,S-ANIMAL O O
+고양이 사료 구토,S-ANIMAL O O
+고양이 빨간 토,S-ANIMAL O O
+고양이 노란토,S-ANIMAL O
+고양이 기생충 토,S-ANIMAL O O
+고양이 구토질문,S-ANIMAL O
+고양이 구토증상,S-ANIMAL O
+고양이 구토와 식욕없음,S-ANIMAL O S-SYMPTOM1
+"고양이 구토, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 S-SYMPTOM2 O
+고양이 구토 침흘림,S-ANIMAL O S-SYMPTOM1
+고양이 구토 창백,S-ANIMAL O S-SYMPTOM1
+고양이 구토 안절부절,S-ANIMAL O S-SYMPTOM1
+고양이 구토 사팔눈,S-ANIMAL O S-SYMPTOM1
+고양이 구토 무기력,S-ANIMAL O S-SYMPTOM1
+고양이 구토 땀흘림,S-ANIMAL O S-SYMPTOM1
+고양이 구토 도와주세요ㅠ,S-ANIMAL O O
+고양이 구토 늘어짐,S-ANIMAL O S-SYMPTOM1
+고양이 구토,S-ANIMAL O
+"고양이 공복토, 사료 잘 안먹을때",S-ANIMAL O O O O
+고양이 갈색토,S-ANIMAL O
+고양이 간식 구토,S-ANIMAL O O
+고양이 3일째 사료안먹고 구토,S-ANIMAL O O O
+계속해서 토를 하니 걱정이됩니다.,O O O O
+계속 토해요,O O
+계속 토를해요..,O O
+개가 구토를 하고 사료도 안먹고 원래는 활발한데 기력도 없어요.,S-ANIMAL O O O O O O O O
+강아지가 헉헉대면서 계속 헛구역질을합니다,S-ANIMAL O O O
+강아지가 토했어요 ㅠㅠ,S-ANIMAL O O
+강아지가 토해요ㅠㅠ,S-ANIMAL O
+강아지가 토해요,S-ANIMAL O
+강아지가 토하고 체온이 낮아요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 토하고 식욕이 없어요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 토하고 설사해요,S-ANIMAL O S-SYMPTOM1
+강아지가 토하고 생식기에서 피가나요 도와주세요,S-ANIMAL O S-AREA S-SYMPTOM1 O
+강아지가 토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 토를해요,S-ANIMAL O
+강아지가 토를 했습니다.,S-ANIMAL O O
+강아지가 토를 했는데 토에서 회충같은게 나왔습니다.,S-ANIMAL O O O O O
+강아지가 토를 진짜 자주해요,S-ANIMAL O O O
+강아지가 토를 자주해요,S-ANIMAL O O
+강아지가 토를 너무 자주해요,S-ANIMAL O O O
+강아지가 토?,S-ANIMAL O
+강아지가 좀 자주 토를 해요 ㅠㅠ,S-ANIMAL O O O O O
+강아지가 자주 토해요,S-ANIMAL O O
+강아지가 자주 구토해요,S-ANIMAL O O
+강아지가 자꾸 토해요,S-ANIMAL O O
+강아지가 자꾸 토하네,S-ANIMAL O O
+강아지가 자꾸 사료를 토해요,S-ANIMAL O O O
+강아지가 이렇게토해놨어요..,S-ANIMAL O
+강아지가 이렇게 토해놨어요,S-ANIMAL O O
+강아지가 오늘 갑자기 토를 하네요.,S-ANIMAL O O O O
+강아지가 어제 갑자기 구토하네,S-ANIMAL O O O
+강아지가 사료를 토해요,S-ANIMAL O O
+강아지가 밥을 잘안먹고 토해요..,S-ANIMAL O O O
+강아지가 노란토를 했어요 무슨 문제 있는건가요..?,S-ANIMAL O O O O O
+강아지가 노란토,S-ANIMAL O
+강아지가 껌을 먹고 토해요 급합니다,S-ANIMAL O O O O
+강아지가 껌을 먹고 토해요,S-ANIMAL O O O
+강아지가 기생충을 토했어요..,S-ANIMAL O O
+강아지가 기생충을 토했어,S-ANIMAL O O
+강아지가 기생충을 토해,S-ANIMAL O O
+강아지가 기생충을 토하네,S-ANIMAL O O
+강아지가 구토하고 설사해요,S-ANIMAL O O
+강아지가 구토하고 설사를 합니다,S-ANIMAL O S-SYMPTOM1 O
+강아지가 구토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 구토하고 기력없음,S-ANIMAL O S-SYMPTOM1
+강아지가 구토를 하고 사료도 안먹고 원래는 활발한데 기력도 없어요.,S-ANIMAL O O O O O O O O
+강아지가 구토를 자주해요,S-ANIMAL O O
+강아지가 구토,S-ANIMAL O
+강아지가 구역질해요,S-ANIMAL S-SYMPTOM1
+강아지가 계속 토해요,S-ANIMAL O O
+강아지가 거품토를 해요,S-ANIMAL O O
+강아지가 갑자기 토를 합니다.,S-ANIMAL O O O
+강아지가 갑자기 구토하네,S-ANIMAL O O
+"강아지 헛구역질, 호흡곤란",S-ANIMAL O S-SYMPTOM1
+강아지 피토,S-ANIMAL O
+강아지 피 섞인 노란 토,S-ANIMAL O O O O
+강아지 토에서 꿈틀거리는 것이 나왔습니다.,S-ANIMAL O O O O
+강아지 토 질문합니다,S-ANIMAL O O
+강아지 토 질문이요,S-ANIMAL O O
+강아지 토 질문,S-ANIMAL O O
+강아지 토 좀 봐주세요ㅠ,S-ANIMAL O O O
+강아지 토 좀 봐주세요,S-ANIMAL O O O
+강아지 토 문제 있나요?,S-ANIMAL O O O
+강아지 토 기운없음 식욕부진,S-ANIMAL O O O
+강아지 토,S-ANIMAL O
+강아지 점액질변 사료토 ㅠㅠ,S-ANIMAL S-SYMPTOM1 O O
+강아지 음식토&옅은 갈색토,S-ANIMAL O O
+"강아지 설사, 구토, 사료 안먹는 증상",S-ANIMAL S-SYMPTOM1 O O O O
+"강아지 설사, 구토",S-ANIMAL S-SYMPTOM1 O
+강아지 사료 토,S-ANIMAL O O
+강아지 사료 구토,S-ANIMAL O O
+강아지 빨간 토,S-ANIMAL O O
+강아지 기생충 토,S-ANIMAL O O
+강아지 구토질문,S-ANIMAL O
+강아지 구토증상,S-ANIMAL O
+강아지 구토와 식욕없음,S-ANIMAL O S-SYMPTOM1
+강아지 구토? 오줌에 덩어리,S-ANIMAL O O O
+"강아지 구토, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 S-SYMPTOM2 O
+강아지 구토 침흘림,S-ANIMAL O S-SYMPTOM1
+강아지 구토 창백,S-ANIMAL O S-SYMPTOM1
+강아지 구토 안절부절,S-ANIMAL O S-SYMPTOM1
+강아지 구토 사팔눈,S-ANIMAL O S-SYMPTOM1
+강아지 구토 무기력,S-ANIMAL O S-SYMPTOM1
+강아지 구토 땀흘림,S-ANIMAL O S-SYMPTOM1
+강아지 구토 도와주세요ㅠ,S-ANIMAL O O
+강아지 구토 늘어짐,S-ANIMAL O S-SYMPTOM1
+강아지 구토,S-ANIMAL O
+강아지 구토,S-ANIMAL O
+"강아지 공복토, 사료 잘 안먹을때",S-ANIMAL O O O O
+강아지 간식 구토,S-ANIMAL O O
+강아지 3일째 사료안먹고 구토,S-ANIMAL O O O
+갑자기 화장실에서 토를했어요 고양이가,O O O S-ANIMAL
+갑자기 화장실에서 토를했어요 강아지가,O O O S-ANIMAL
+갑자기 화장실에서 토를했어요,O O O
+갑자기 하지않던 토를 하네요,O O O O
+갑자기 토했어요,O O
+갑자기 토해요,O O
+갑자기 토하네,O O
+갑자기 토를 합니다.,O O O
+갑자기 토를 자주 해요ㅠㅠ,O O O O
+갑자기 그날에 토를하고 설사를 했습니다.,O O O O O
+갑자기 구토해요,O O
+1년 조금안된 고양이가 있는데 요새 갑자기 사료만먹으면 토를해요.,O O O S-ANIMAL O O O O
+강아지가 토하고 호흡이 이상해요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토하고 호흡이 이상해요,S-ANIMAL O S-SYMPTOM1 O
+강아지가 토하고 호흡이 이상해,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토하고 호흡이 이상해,S-ANIMAL O S-SYMPTOM1 O
+토하고 호흡이 이상해,O S-SYMPTOM1 O
+토하고 호흡이 이상해요,O S-SYMPTOM1 O
+강아지가 토하고 오한이 있어요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토하고 오한이 있어요,S-ANIMAL O S-SYMPTOM1 O
+토하고 오한이 있어요,O S-SYMPTOM1 O
+강아지가 토하고 오한이 있어,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토하고 오한이 있어,S-ANIMAL O S-SYMPTOM1 O
+토하고 오한이 있어,O S-SYMPTOM1 O
+강아지가 토하고 발열이 있어요,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토하고 발열이 있어요,S-ANIMAL O S-SYMPTOM1 O
+토하고 발열이 있어요,O S-SYMPTOM1 O
+강아지가 토하고 발열이 있어,S-ANIMAL O S-SYMPTOM1 O
+고양이가 토하고 발열이 있어,S-ANIMAL O S-SYMPTOM1 O
+토하고 발열이 있어,O S-SYMPTOM1 O
+강아지가 설사하고 토해요,S-ANIMAL S-SYMPTOM1 O
+고양이가 설사하고 토해요,S-ANIMAL S-SYMPTOM1 O
+설사하고 토해요,S-SYMPTOM1 O
+강아지가 설사하고 토해,S-ANIMAL S-SYMPTOM1 O
+고양이가 설사하고 토해,S-ANIMAL S-SYMPTOM1 O
+설사하고 토해,S-SYMPTOM1 O
+강아지가 재채기하고 토해요,S-ANIMAL S-SYMPTOM1 O
+고양이가 재채기하고 토해요,S-ANIMAL S-SYMPTOM1 O
+재채기하고 토해요,S-SYMPTOM1 O
+강아지가 재채기하고 토해,S-ANIMAL S-SYMPTOM1 O
+고양이가 재채기하고 토해,S-ANIMAL S-SYMPTOM1 O
+재채기하고 토해,S-SYMPTOM1 O
+강아지가 토하고 예민해요,S-ANIMAL O S-SYMPTOM1
+고양이가 토해요 예민해요,S-ANIMAL O S-SYMPTOM1
+토하고 예민해요,S-SYMPTOM1 O
+강아지가 토하고 예민해,S-ANIMAL O S-SYMPTOM1
+고양이가 토해요 예민해,S-ANIMAL O S-SYMPTOM1
+토하고 예민해,S-SYMPTOM1 O
+강아지가 뒷다리를 절고 구토해요,S-ANIMAL S-SYMPTOM1 O O
+고양이가 뒷다리를 절고 구토해요,S-ANIMAL S-SYMPTOM1 O O
+뒷다리를 절고 구토해요,S-SYMPTOM1 O O
+강아지가 뒷다리를 절고 구토해,S-ANIMAL S-SYMPTOM1 O O
+고양이가 뒷다리를 절고 구토해,S-ANIMAL S-SYMPTOM1 O O
+뒷다리를 절고 구토해,S-SYMPTOM1 O O
+강아지가 토하고 잇몸이 창백해요,S-ANIMAL O S-AREA S-SYMPTOM1
+고양이가 토하고 잇몸이 창백해요,S-ANIMAL O S-AREA S-SYMPTOM1
+토하고 잇몸이 창백해요,O S-AREA S-SYMPTOM1
+강아지가 토하고 잇몸이 창백해,S-ANIMAL O S-AREA S-SYMPTOM1
+고양이가 토하고 잇몸이 창백해,S-ANIMAL O S-AREA S-SYMPTOM1
+토하고 잇몸이 창백해,O S-AREA S-SYMPTOM1
+강아지가 토하고 뒷다리가 뻣뻣해요,S-ANIMAL O S-AREA S-SYMPTOM1
+고양이가 토하고 뒷다리가 뻣뻣해요,S-ANIMAL O S-AREA S-SYMPTOM1
+토하고 뒷다리가 뻣뻣해요,O S-AREA S-SYMPTOM1
+강아지가 토하고 뒷다리가 뻣뻣해,S-ANIMAL S-SYMPTOM1 O O
+고양이가 토하고 뒷다리가 뻣뻣해,S-ANIMAL O S-AREA S-SYMPTOM1
+토하고 뒷다리가 뻣뻣해,O S-AREA S-SYMPTOM1
+고양이가 콧물을 흘리고 구토해요,S-ANIMAL S-SYMPTOM1 O O
+강아지가 콧물을 흘리고 구토해요,S-ANIMAL S-SYMPTOM1 O O
+콧물을 흘리고 구토해요,S-SYMPTOM1 O O
+고양이가 콧물을 흘리고 구토해,S-ANIMAL S-SYMPTOM1 O O
+강아지가 콧물을 흘리고 구토해,S-ANIMAL S-SYMPTOM1 O O
+콧물을 흘리고 구토해,S-SYMPTOM1 O O
+강아지가 오한이 있고 토해요,S-ANIMAL S-SYMPTOM1 O O
+고양이가 오한이 있고 토해요,S-ANIMAL S-SYMPTOM1 O O
+오한이 있고 토해요,S-SYMPTOM1 O O
+강아지가 오한이 있고 토해,S-ANIMAL S-SYMPTOM1 O O
+고양이가 오한이 있고 토해,S-ANIMAL S-SYMPTOM1 O O
+오한이 있고 토해,S-SYMPTOM1 O O
+강아지가 구토하는데 왜이럴까,S-ANIMAL O O
+고양이가 구토하는데 왜이럴까,S-ANIMAL O O
+야 강아지가 토해,O S-ANIMAL O
+야 고양이가 토해,O S-ANIMAL O
+야 토하는데?,O O
+야 구토하잖아,O O
+구토 관련 질병알려줘,O O O
+구토에 대해서 알려줘,O O O
+토하는건 왜이러는거지,O O
+구토 증상 알려줘,O O O
+토하는데 왜이러는지 알려주세요,O O O
+고양이 구토 관련 질병 알려줘,O S-ANIMAL O O O
+강아지 구토 관련 질병 알려줘,O S-ANIMAL O O O
+구토 관련된 질병 어떤게 있는지 알려줘,O O O O O O
+구토 관련 질병 부탁하겠습니다,O O O O
+구토 관련 질병,O O O
+강아지가 토했는데 어디 아픈건가?,S-ANIMAL O O O
+고양이가 토했는데 어디 아픈건가?,S-ANIMAL O O O
+강아지가 토했는데 무슨 문제인지 알려줘,S-ANIMAL O O O O
+고양이가 토했는데 무슨 문제인지 알려줘,S-ANIMAL O O O O
+강아지 구토관련 질병 궁금해,S-ANIMAL O O O
+고양이 구토관련 질병 궁금해,S-ANIMAL O O O
+강아지가 갑자기 토했는데 왜이럴까,S-ANIMAL O O O
+고양이가 갑자기 토했는데 왜이럴까,S-ANIMAL O O O
+야 구토 왜이래,O O O
+고양이 구토와 관련된 질병 알려주세요,S-ANIMAL O O O O
+강아지 구토와 관련된 질병 알려주세요,S-ANIMAL O O O O
+강아지 구토관련 질병 좀 알려주세요,S-ANIMAL O O O O
+고양이 구토관련 질병 좀 알려주세요,S-ANIMAL O O O O
+고양이 구토 관련 질병 알려주겠니?,S-ANIMAL O O O O
+강아지 구토 관련 질병 알려주겠니?,S-ANIMAL O O O O
+구토 관련 질병 알려주겠니?,O O O O
+고양이 피부가 이상해요,S-ANIMAL O O
+강아지 피부가 이상해요,S-ANIMAL O O
+개 피부가 이상해요,S-ANIMAL O O
+고양이 피부가 이상하고 식욕이 없어요,S-ANIMAL O O S-SYMPTOM1 O
+강아지 피부가 이상하고 식욕이 없어요,S-ANIMAL O O S-SYMPTOM1 O
+제가 친구들이랑 돌보는 고양이인데 이거 곰팡이 피부병 인가요??,O O O S-ANIMAL O S-SYMPTOM1 O O
+제가 친구들이랑 돌보는 강아지인데 이거 곰팡이 피부병 인가요??,O O O S-ANIMAL O S-SYMPTOM1 O O
+고양이 상처?,S-ANIMAL O
+강아지 상처?,S-ANIMAL O
+상처?,O
+귀 붓기,S-AREA O
+길고양이 좁쌀처럼 생긴 하얀 진드기,S-ANIMAL O O O O
+강아지 좁쌀처럼 생긴 하얀 진드기,S-ANIMAL O O O O
+개 좁쌀처럼 생긴 하얀 진드기,S-ANIMAL O O O O
+사진의 진드기의 종류가 무엇인가요?,O O O O
+이게 곰팡이성 피부질환인가요?,O S-SYMPTOM1 O
+자주 보이는 길고양이인데 다리에 상처가 있습니다.,O O S-ANIMAL O O O
+고양이 피부병인가요?,S-ANIMAL O
+강아지 피부병인가요?,S-ANIMAL O
+개 피부병인가요?,S-ANIMAL O
+피부병인가요?,O
+이거 고양이 진드기인가요?,O S-ANIMAL O
+이거 강아지 진드기인가요?,O S-ANIMAL O
+저희 고양이가 입주변에 상처?뾰루지?,O S-ANIMAL O O
+지금 등 쪽에 딱딱한 멍울이 생겼어요 ㅠ,O O O O O O O
+고양이 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
+강아지 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
+개 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
+엉덩이 옆에 욕창 같은게 생겼어요,O O S-SYMPTOM1 O O
+링웜이맞는지 검사는필요없나요?,O O
+고양이 링웜,S-ANIMAL O
+링웜,O
+링웜인가요??,O
+고양이가 피부병에 걸렸어요,S-ANIMAL O O
+고양이 3개월 됐고 귀에 있는 진드기 치료중입니다,S-ANIMAL O O O O O O
+귀에 있는 진드기 치료중입니다,O O O O
+고양이 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
+강아지 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
+개 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
+눈에서 상처 자국이 보입니다.,S-AREA O O O
+처음에는 털이 들어간줄 알았는데 상처더군요.,O O O O O
+고양이 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
+강아지 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
+개 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
+혓바닥에 상처들이 있어요,S-AREA O O
+고양이가 진드기에 물렸어요,S-ANIMAL O O
+개가 진드기에 물렸어요,S-ANIMAL O O
+강아지가 진드기에 물렸어요,S-ANIMAL O O
+진드기에 물렸어요,O O
+고양이 피부 봐주세요 ㅠㅠ,S-ANIMAL O O O
+피부 봐주세요 ㅠㅠ,O O O
+고양이 피부병,S-ANIMAL O
+피부병,O
+고양이 피부좀 봐주세요,S-ANIMAL O O
+피부좀 봐주세요,O O
+고양이 피부 좀 봐주세요,S-ANIMAL O O O
+강아지 피부 봐주세요 ㅠㅠ,S-ANIMAL O O O
+피부좀 봐주세요 ㅠㅠ,O O O
+강아지 피부좀 봐주세요,S-ANIMAL O O
+강아지 피부 좀 봐주세요,S-ANIMAL O O O
+동물병원에서는 피부가 빨갛지는 않다고,O O O O
+곰팡이 피부병이 아니라고 했는데,O O O O
+전염되지 않는 피부병인가요?,O O O
+무슨 피부병인지 알고 가고 싶습니다.,O O O O O
+고양이 피부,S-ANIMAL O
+고양이 피부병 질문 ㅠㅠ,S-ANIMAL O O O
+강아지 피부병 질문 ㅠㅠ,S-ANIMAL O O O
+개 피부병 질문 ㅠㅠ,S-ANIMAL O O O
+피부병 질문 ㅠㅠ,O O O
+고양이 피부에 여드름 같은게 났어요,S-ANIMAL O O O O
+강아지 피부에 여드름 같은게 났어요,S-ANIMAL O O O O
+개 피부에 여드름 같은게 났어요,S-ANIMAL O O O O
+피부에 여드름 같은게 났어요,O O O O
+만약 피부병이 생기면 어떤 증상을 보이는지 좀 알려주세요ㅜㅜㅜ,O O O O O O O O
+피부는 깨끗한거 같은데 비듬이 계속 나오는 이유가 있을까요?,O O O O O O O O
+혹시나 피부병 같은게 생긴걸까요?,O O O O
+아니면 진드기?ㅜㅜㅜㅜ,O O
+아니면 진드기?,O O
+개 진드기 치료,S-ANIMAL O O
+진드기 치료,O O
+개 피부병 인가요?,S-ANIMAL O O
+피부병 인가요?,O O
+강아지 피부병 인가요?,S-ANIMAL O O
+고양이 피부병 인가요?,S-ANIMAL O O
+"한 1달 된거 같은데, 개 피부병 인가요?",O O O O S-ANIMAL O O
+"한 1달 된거 같은데, 강아지 피부병 인가요?",O O O O S-ANIMAL O O
+"한 1달 된거 같은데, 고양이 피부병 인가요?",O O O O S-ANIMAL O O
+원래 있던게 아닌 갑자기 피부가 혹처럼 딱딱해서 봣떠니,O O O O O O O O
+혹시 피부병인가요...?,O O
+혹시 고양이 피부병인가요...?,O S-ANIMAL O
+혹시 강아지 피부병인가요...?,O S-ANIMAL O
+혹시 개 피부병인가요...?,O S-ANIMAL O
+마당에 키우는 강아지 진드기,O O S-ANIMAL S-SYMPTOM1
+마당에 키우는 고양이 진드기,O O S-ANIMAL O
+강아지 상처 꼬매야될 정돈가요?,S-ANIMAL O O O
+고양이 상처 꼬매야될 정돈가요?,S-ANIMAL O O O
+개 상처 꼬매야될 정돈가요?,S-ANIMAL O O O
+상처 꼬매야될 정돈가요?,O O O
+진드기때문인가요?,O
+아니면 피부병 때문인가요?,O O O
+진드기때문에 생긴 증상일까요?,O O O
+아니면 피부병일까요?,O O
+상처인지 머가 난건지 모르겠어요 ㅠㅠ,O O O O O
+피부종양인가요?,O
+피부 종양인가요?,O S-SYMPTOM1
+피부 염증인가요?,O S-SYMPTOM1
+냥이 여드름 너무 자주 납니다ㅜ,O O O O O
+고양이 여드름 너무 자주 납니다ㅜ,O O O O O
+강아지 여드름 너무 자주 납니다ㅜ,O O O O O
+개 여드름 너무 자주 납니다ㅜ,O O O O O
+여드름 너무 자주 납니다ㅜ,O O O O
+강아지 링웜,S-ANIMAL O
+수의사선생님이 복강내 종괴도 얘기했습니다,O O O O
+비장은 종괴가 여러군데 보여서 둘 다 절제수술했습니다,O O O O O O O
+강아지 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
+고양이 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
+개 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
+발가락 골절 후 피부,S-AREA O O O
+이 피부병이 농피증인가요?,O O O
+사람피부병에 바르는 약을 바르면 어떻게되나요??,O O O O O
+강아지 다리 절음과 발바닥 핥음.,S-ANIMAL S-AREA O O O
+다리 절음과 발바닥 핥음.,S-AREA O O O
+강아지가 산책가기 전까지는 안그랬는데 다녀와서 한쪽 뒷다리를 절고 발바닥을 핥아요.,S-ANIMAL O O O O O O O O O
+발바닥만 핥아요 ㅠㅠ 어떻게 해야 하죠?,O O O O O O
+진드기가 맞나요?,O O
+이 진드기한테 물리면 어떤 증상이 잇나요?,O O O O O O
+강아지 진드기,S-ANIMAL O
+진드기가 맞다면 집게같은 걸로 떼어줘도 괜찮을까요?,O O O O O O
+진드기가 아니면 무슨 염증인지도 부탁 드립니다!,O O O O O O
+강아지 피부병,S-ANIMAL O
+강아지 등에 피부병이 생겼어요,S-ANIMAL O O O
+등에 피부병이 생겼어요,O O O
+강아지 뾰루지,S-ANIMAL O
+고양이 뾰루지,S-ANIMAL O
+뾰루지,O
+강아지가 뾰루지가 났어요,S-ANIMAL O O
+뾰루지가 났어요,O O
+고양이가 뾰루지가 났어요,S-ANIMAL O O
+강아지가 뾰루지가 났어,S-ANIMAL O O
+고양이가 뾰루지가 났어,S-ANIMAL O O
+개가 뾰루지가 났어,S-ANIMAL O O
+강아지가 뾰루지가 났네,S-ANIMAL O O
+고양이가 뾰루지가 났네,S-ANIMAL O O
+개가 뾰루지가 났네,S-ANIMAL O O
+강아지 피부터짐,S-ANIMAL O
+강아지 피부 터짐,S-ANIMAL O O
+피부 터짐,O O
+강아지 피부에 이런게 생겼는데 뭔가요,S-ANIMAL O O O O
+강아지 피부에 이런게 생겼는데 뭔가요??,S-ANIMAL O O O O
+개 피부에 이런게 생겼는데 뭔가요??,S-ANIMAL O O O O
+피부에 이런게 생겼는데 뭔가요??,O O O O
+강아지 몸에 진드기 붙었을 때,S-ANIMAL O O O O
+몸에 진드기 붙었을 때,O O O O
+강아지 몸에 진드기 붙으면 어떻게 해야하는지 알려주세요ㅜ,S-ANIMAL O O O O O O
+몸에 진드기 붙으면 어떻게 해야하는지 알려주세요ㅜ,O O O O O O
+진드기 붙으면 어떻게 해야하는지 알려주세요ㅜ,O O O O O
+강아지가 진드기한테 물렸어요,S-ANIMAL O O
+진드기한테 물렸어요,O O
+고양이가 진드기한테 물렸어요,S-ANIMAL O O
+강아지가 진드기한테 물렸는데 부어오르고 멍이들었네요,S-ANIMAL O O O O
+물렸는데 부어오르고 멍이들었네요,O O O
+고양이가 진드기한테 물렸는데 부어오르고 멍이들었네요,S-ANIMAL O O O O
+진드기가 있는것 같아요,O O O
+강아지 욕창 치료 질문,S-ANIMAL O O O
+고양이 욕창 치료 질문,S-ANIMAL O O O
+개 욕창 치료 질문,S-ANIMAL O O O
+욕창 치료 질문,O O O
+강아지가 나이가 많아 하루종일 누워있다보니 욕창이 생겼습니다.,S-ANIMAL O O O O O O O
+강아지 피부에 이거 뭐예요?,S-ANIMAL O O O
+피부에 이거 뭐예요?,O O O
+고양이 피부에 이거 뭐예요?,S-ANIMAL O O O
+강아지 피부에 이거 뭐예요?,S-ANIMAL O O O
+개 피부에 이거 뭐예요?,S-ANIMAL O O O
+강아지 진드기 제거후 조치,S-ANIMAL O O O
+고양이 진드기 제거후 조치,S-ANIMAL O O O
+개 진드기 제거후 조치,S-ANIMAL O O O
+이거 진드기일까요 흑색종일까요,O O O
+진드기 무슨 종류인지 알 수 있을까요,O O O O O O
+강아지 귀 속 진드기,S-ANIMAL O O O
+귀 속 진드기,O O O
+고양이 귀 속 진드기,S-ANIMAL O O O
+이거 살인진드기인가요?,O O
+강아지 피부병 걸린건가요?,S-ANIMAL O O
+피부병 걸린건가요?,O O
+고양이 피부병 걸린건가요?,S-ANIMAL O O
+이 상처가 진드기에 의한 피부병인가요?,O O O O O
+상처가 진드기에 의한 피부병인가요?,O O O O
+상처가 진드기에 의한 피부병이에요?,O O O O
+강아지의 피부 질문드려요,S-ANIMAL O O
+고양이의 피부 질문드려요,S-ANIMAL O O
+개의 피부 질문드려요,S-ANIMAL O O
+피부 질문드려요,O O
+강아지 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-ANIMAL S-AREA O O
+고양이 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-ANIMAL S-AREA O O
+개 꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-ANIMAL S-AREA O O
+꼬리에 곪은상처 왜이럴까요ㅠㅠ,S-AREA O O
+강아지 꼬리에 곪은상처 왜이럴까요?,S-ANIMAL S-AREA O O
+고양이 꼬리에 곪은상처 왜이럴까요?,S-ANIMAL S-AREA O O
+개 꼬리에 곪은상처 왜이럴까요?,S-ANIMAL S-AREA O O
+꼬리에 곪은상처 왜이럴까요?,S-AREA O O
+상처가있는데 피고름이 나오더라구요,O O O
+진드기?,O
+진드기,O
+피부,O
+"피부병인지, 어디가 아픈 것인지 병원에 가기 전에 알아보고 싶어서 질문 드립니다.",O O O O O O O O O O O
+저희 강아지 탈모인가요?,O S-ANIMAL O
+저희 고양이 탈모인가요?,O S-ANIMAL O
+탈모인가요?,O
+강아지가 말티즈인데 피부병이 낫질 않아요.,S-ANIMAL O O O O
+이게 작은 소참진드기 맞나요?,O O O O
+피부병이라면 무슨 피부병일까요..?ㅜㅜ,O O O
+"그런데 배쪽에서 종괴가 발견됬다네요, 최근에 밥도 잘못먹고 살이빠져서",O O O O O O O O
+고양이 배에 진드기가 있어요,S-ANIMAL S-AREA O O
+배에 진드기가 있어요,S-AREA O O
+고양이 가슴에 진드기가 있어요,S-ANIMAL S-AREA O O
+가슴에 진드기가 있어요,S-AREA O O
+고양이 발에 진드기가 있어요,S-ANIMAL S-AREA O O
+발에 진드기가 있어요,S-AREA O O
+고양이 머리에 진드기가 있어요,S-ANIMAL S-AREA O O
+머리에 진드기가 있어요,S-AREA O O
+고양이 허리에 진드기가 있어요,S-ANIMAL S-AREA O O
+허리에 진드기가 있어요,S-AREA O O
+강아지 배에 진드기가 있어요,S-ANIMAL S-AREA O O
+배에 진드기가 있어요,S-AREA O O
+강아지 가슴에 진드기가 있어요,S-ANIMAL S-AREA O O
+강아지 발에 진드기가 있어요,S-ANIMAL S-AREA O O
+강아지 머리에 진드기가 있어요,S-ANIMAL S-AREA O O
+강아지 허리에 진드기가 있어요,S-ANIMAL S-AREA O O
+고양이 배에 진드기가 있어,S-ANIMAL S-AREA O O
+배에 진드기가 있어,S-AREA O O
+고양이 가슴에 진드기가 있어,S-ANIMAL S-AREA O O
+가슴에 진드기가 있어,S-AREA O O
+고양이 발에 진드기가 있어,S-ANIMAL S-AREA O O
+발에 진드기가 있어,S-AREA O O
+고양이 머리에 진드기가 있어,S-ANIMAL S-AREA O O
+머리에 진드기가 있어,S-AREA O O
+고양이 허리에 진드기가 있어,S-ANIMAL S-AREA O O
+허리에 진드기가 있어,S-AREA O O
+강아지 배에 진드기가 있어,S-ANIMAL S-AREA O O
+강아지 가슴에 진드기가 있어,S-ANIMAL S-AREA O O
+강아지 발에 진드기가 있어,S-ANIMAL S-AREA O O
+강아지 머리에 진드기가 있어,S-ANIMAL S-AREA O O
+강아지 허리에 진드기가 있어,S-ANIMAL S-AREA O O
+고양이 배에 진드기가 있네,S-ANIMAL S-AREA O O
+배에 진드기가 있네,S-AREA O O
+고양이 가슴에 진드기가 있네,S-ANIMAL S-AREA O O
+가슴에 진드기가 있네,S-AREA O O
+고양이 발에 진드기가 있네,S-ANIMAL S-AREA O O
+발에 진드기가 있네,S-AREA O O
+고양이 머리에 진드기가 있네,S-ANIMAL S-AREA O O
+머리에 진드기가 있네,S-AREA O O
+고양이 허리에 진드기가 있네,S-ANIMAL S-AREA O O
+허리에 진드기가 있네,S-AREA O O
+강아지 배에 진드기가 있네,S-ANIMAL S-AREA O O
+강아지 가슴에 진드기가 있네,S-ANIMAL S-AREA O O
+강아지 발에 진드기가 있네,S-ANIMAL S-AREA O O
+강아지 머리에 진드기가 있네,S-ANIMAL S-AREA O O
+강아지 허리에 진드기가 있네,S-ANIMAL S-AREA O O
+고양이 배에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 가슴에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 발에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 머리에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 허리에 진드기가 있는데?,S-ANIMAL S-AREA O O
+배에 진드기가 있는데?,S-AREA O O
+가슴에 진드기가 있는데?,S-AREA O O
+발에 진드기가 있는데?,S-AREA O O
+머리에 진드기가 있는데?,S-AREA O O
+허리에 진드기가 있는데?,S-AREA O O
+배에 진드기가 있는데?,S-AREA O O
+강아지 가슴에 진드기가 있는데?,S-ANIMAL S-AREA O O
+강아지 발에 진드기가 있는데?,S-ANIMAL S-AREA O O
+강아지 머리에 진드기가 있는데?,S-ANIMAL S-AREA O O
+강아지 허리에 진드기가 있는데?,S-ANIMAL S-AREA O O
+고양이 배에 진드기,S-ANIMAL S-AREA O
+고양이 가슴에 진드기,S-ANIMAL S-AREA O
+고양이 발에 진드기,S-ANIMAL S-AREA O
+고양이 머리에 진드기,S-ANIMAL S-AREA O
+고양이 허리에 진드기,S-ANIMAL S-AREA O
+배에 진드기,S-AREA O
+가슴에 진드기,S-AREA O
+발에 진드기,S-AREA O
+머리에 진드기,S-AREA O
+허리에 진드기,S-AREA O
+강아지 배에 진드기,S-ANIMAL S-AREA O
+강아지 가슴에 진드기,S-ANIMAL S-AREA O
+강아지 발에 진드기,S-ANIMAL S-AREA O
+강아지 머리에 진드기,S-ANIMAL S-AREA O
+강아지 허리에 진드기,S-ANIMAL S-AREA O
+강아지 피부에 상처,S-ANIMAL O O
+고양이 피부에 상처,S-ANIMAL O O
+강아지 피부에 뭐가 났는데?,S-ANIMAL O O O
+고양이 피부에 뭐가 났는데?,S-ANIMAL O O O
+강아지 피부에 뭐가 났어,S-ANIMAL O O O
+고양이 피부에 뭐가 났어,S-ANIMAL O O O
+강아지 피부에 뭐가 남,S-ANIMAL O O O
+고양이 피부에 뭐가 남,S-ANIMAL O O O
+고양이 꼬리에 상처,S-ANIMAL O O
+강아지 꼬리에 상처,S-ANIMAL O O
+강아지 가슴에 상처,S-ANIMAL O O
+발에 상처,S-AREA O
+발에 상처,S-AREA O
+배에 상처,S-AREA O
+복부에 상처,S-AREA O
+강아지 배에 상처,S-ANIMAL S-AREA O
+강아지 복부에 상처,S-ANIMAL S-AREA O
+고양이 머리에 상처,S-ANIMAL S-AREA O
+고양이 귀에 상처,S-ANIMAL S-AREA O
+강아지 머리에 상처,S-ANIMAL S-AREA O
+강아지 귀에 상처,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 발에 상처,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 발에 상처,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 배에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 배에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 가슴에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 가슴에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 다리에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 다리에 종양,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+고양이 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+강아지 다리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 머리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 발에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 가슴에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 귀에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 등에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 다리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 머리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 발에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 가슴에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 귀에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 등에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 다리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 머리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 발에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 가슴에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 귀에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 등에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+강아지 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
+개 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
+개 다리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 머리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 발에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 가슴에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 귀에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 등에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 다리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 머리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 발에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 가슴에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 귀에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 등에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 다리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 머리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 발에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 가슴에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 귀에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 등에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
+개 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
+고양이 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
+개 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
+피부에 비듬이 있어요,O S-SYMPTOM1 O
+강아지 피부에 습진,S-ANIMAL O S-SYMPTOM1
+고양이 피부에 습진,S-ANIMAL O S-SYMPTOM1
+개 피부에 습진,S-ANIMAL O S-SYMPTOM1
+피부에 습진,O S-SYMPTOM1
+야 강아지 피부가 이상해,O S-ANIMAL O O
+야 고양이 피부가 이상해,O S-ANIMAL O O
+야 피부가 이상해,O O O
+강아지 피부병 궁금해,S-ANIMAL O O
+고양이 피부병 궁금해,S-ANIMAL O O
+피부병이 궁금해,O O
+강아지 피부에 뭐가 났는데 뭔지 궁금해,S-ANIMAL O O O O O
+강아지 피부에 뭐가 났는데 뭔지 궁금해,S-ANIMAL O O O O O
+개 피부에 뭐가 났는데 뭔지 궁금해,S-ANIMAL O O O O O
+피부에 뭐가 났는데 뭔지 궁금해,O O O O O
+피부와 관련된 질병 알려줘,O O O O
+피부 관련 질병 알려주세요,O O O O
+피부 관련된 질병은 뭐가 있어?,O O O O O
+피부 관련 질병,O O O
+피부 관련 질병 알려주겠니?,O O O O
+피부 관련 질병 말해봐,O O O O
+강아지 피부가 이상한데 왜이럴까?,O O O O
+고양이 피부가 이상한데 왜이럴까?,O O O O
+개 피부가 이상한데 왜이럴까?,O O O O
+피부가 빨갛고 부었어,O O O
+강아지 눈 관련...,S-ANIMAL O O
+고양이 눈 관련...,S-ANIMAL O O
+눈 관련,S-ANIMAL O
+고양이 눈,S-ANIMAL O
+강아지 눈,S-ANIMAL O
+개 눈,S-ANIMAL O
+고양이 안구,S-ANIMAL O
+강아지 안구,S-ANIMAL O
+개 안구,S-ANIMAL O
+고양이 눈 이상,S-ANIMAL O O
+강아지 눈 이상,S-ANIMAL O O
+개 눈 이상,S-ANIMAL O O
+눈 이상,O O
+눈 관련...,O O
+고양이 눈이 이상해요,S-ANIMAL O O
+강아지 눈이 이상해요,S-ANIMAL O O
+개 눈이 이상해요,S-ANIMAL O O
+눈이 이상해요,S-ANIMAL O
+고양이 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
+강아지 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
+개 눈이 이상하고 무기력해요,S-ANIMAL O O S-SYMPTOM1
+고양이가 무기력하고 눈이 이상해요,S-ANIMAL S-SYMPTOM1 O O
+강아지가 무기력하고 눈이 이상해요,S-ANIMAL S-SYMPTOM1 O O
+개가 무기력하고 눈이 이상해요,S-ANIMAL S-SYMPTOM1 O O
+강아지 눈이 이상하고 창백해요,S-ANIMAL O O S-SYMPTOM1
+고양이 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
+강아지 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
+개 눈이 이상하고 무기력,S-ANIMAL O O S-SYMPTOM1
+눈이 이상하고 무기력해요,O O S-SYMPTOM1
+눈이 이상하고 무기력,O O S-SYMPTOM1
+눈이 이상해요,O O
+저희집 개 눈이 이상해요,O S-ANIMAL O O
+저희집 개 눈이 이상하고 무기력해요,O S-ANIMAL O O S-SYMPTOM1
+저희집 개 눈이 이상하고 창백해요,O S-ANIMAL O O S-SYMPTOM1
+강아지 눈 관련 질문드립니다,S-ANIMAL O O O
+고양이 눈 관련 질문드립니다,S-ANIMAL O O O
+개 눈 관련 질문드립니다,S-ANIMAL O O O
+강아지 눈 관련 질문드려요,S-ANIMAL O O O
+고양이 눈 관련 질문드려요,S-ANIMAL O O O
+개 눈 관련 질문드려요,S-ANIMAL O O O
+눈 관련 질문드려요,O O O
+저희집 개 눈이 이상해요,S-ANIMAL O O O
+강아지 눈이 왜 이럴까요?,S-ANIMAL O O O
+고양이 눈이 왜 이럴까요?,S-ANIMAL O O O
+눈에 눈곱이 많이 나고 눈을 못떠요,O S-SYMPTOM1 O O O O
+강아지 눈 부음,S-ANIMAL O O
+고양이 눈 부음,S-ANIMAL O O
+강아지 눈 붓기,S-ANIMAL O O
+고양이 눈 붓기,S-ANIMAL O O
+개 눈 부음,S-ANIMAL O O
+개 눈 붓기,S-ANIMAL O O
+눈이 빨갛고 부어있어요,S-ANIMAL O O
+눈이 충혈되고 부어있어요,S-ANIMAL O O
+눈이 실명됐어요,S-ANIMAL O
+강아지 눈에 뭐가 들어간것같아요,S-ANIMAL O O O
+고양이 눈에 뭐가 들어간것같아요,S-ANIMAL O O O
+강아지 눈에 점,S-ANIMAL O O
+고양이 눈에 점,S-ANIMAL O O
+눈에 점,O O
+강아지 눈에 이상한게 났어요,S-ANIMAL O O O
+고양이 눈에 이상한게 났어요,S-ANIMAL O O O
+강아지 눈 좀 봐주세요,S-ANIMAL O O O
+고양이 눈 좀 봐주세요,S-ANIMAL O O O
+눈 좀 봐주세요,O O O
+강아지 눈에 노란색 눈곱,S-ANIMAL O O S-SYMPTOM1
+고양이 눈에 노란색 눈곱,S-ANIMAL O O S-SYMPTOM1
+눈에 노란색 눈곱,O O S-SYMPTOM1
+강아지 눈,S-ANIMAL O
+고양이 눈,S-ANIMAL O
+강아지 눈 다래끼 충혈,S-ANIMAL O O S-SYMPTOM1
+고양이 눈 다래끼 충혈,S-ANIMAL O O S-SYMPTOM1
+눈 다래끼 충혈,O O S-SYMPTOM1
+강아지 눈 흰자가 갈색인데 무슨 문제있는건가요?,S-ANIMAL O O O O O
+고양이 눈 흰자가 갈색인데 무슨 문제있는건가요?,S-ANIMAL O O O O O
+눈 흰자가 갈색인데 무슨 문제있는건가요?,O O O O O
+강아지 눈이 튀어나왔어요,S-ANIMAL O O
+고양이 눈이 튀어나왔어요,S-ANIMAL O O
+눈이 튀어나왔어요,O O
+강아지 눈 건강,S-ANIMAL O O
+고양이 눈 건강,S-ANIMAL O O
+눈 건강,O O
+강아지 눈밑에 피,S-ANIMAL O O
+고양이 눈밑에 피,S-ANIMAL O O
+눈밑에 피,O O
+강아지 눈 주위 빨감,S-ANIMAL O O O
+고양이 눈 주위 빨감,S-ANIMAL O O O
+눈 주위 빨감,O O O
+강아지 눈 건강,S-ANIMAL O O
+고양이 눈 건강,S-ANIMAL O O
+눈 건강,O O
+강아지 눈에 이상한게 있는데,S-ANIMAL O O O
+고양이 눈에 이상한게 있는데,S-ANIMAL O O O
+눈에 이상한게 있는데,O O O
+고양이 눈에 이상한게 있어요,S-ANIMAL O O O
+강아지 눈에 이상한게 있어요,S-ANIMAL O O O
+고양이 눈에 이상한거,S-ANIMAL O O
+강아지 눈에 이상한거,S-ANIMAL O O
+눈에 이상한거,O O
+고양이 눈에 이상한게 있어,S-ANIMAL O O O
+강아지 눈에 이상한게 있어,S-ANIMAL O O O
+눈에 이상한게 있어,O O O
+강아지 눈 붓기,S-ANIMAL O S-SYMPTOM1
+고양이 눈 붓기,S-ANIMAL O S-SYMPTOM1
+붓기,S-SYMPTOM1
+새끼 강아지 눈이 이상해요ㅠㅠ,O S-ANIMAL O O
+새끼 고양이 눈이 이상해요ㅠㅠ,O S-ANIMAL O O
+강아지 눈이 이상해요ㅠㅠ,S-ANIMAL O O
+고양이 눈이 이상해요ㅠㅠ,S-ANIMAL O O
+눈이 이상해요ㅠㅠ,O O
+강아지 눈 다래끼,S-ANIMAL O S-SYMPTOM1
+고양이 눈 다래끼,S-ANIMAL O S-SYMPTOM1
+눈 다래끼,O S-SYMPTOM1
+강아지 눈이 문제있나요?,S-ANIMAL O O
+고양이 눈이 문제있나요?,S-ANIMAL O O
+눈이 문제있나요?,O O
+눈에 문제있나요?,O O
+강아지 눈 봐주세요,S-ANIMAL O O
+고양이 눈 봐주세요,S-ANIMAL O O
+강아지가 눈을 못 떠요,S-ANIMAL O O O
+고양이가 눈을 못 떠요,S-ANIMAL O O O
+강아지 눈 이상,S-ANIMAL O O
+고양이 눈 이상,S-ANIMAL O O
+눈 이상,O O
+강아지 눈 주변이 빨개요ㅠㅠ,S-ANIMAL O O O
+고양이 눈 주변이 빨개요ㅠ,S-ANIMAL O O O
+강아지 눈 주변이 빨간데?,S-ANIMAL O O O
+고양이 눈 주변이 빨간데?,S-ANIMAL O O O
+눈 주변이 빨간데?,O O O
+강아지 눈 혼탁 충혈,S-ANIMAL O S-SYMPTOM1 O
+강아지 눈 혼탁 충혈,S-ANIMAL O S-SYMPTOM1 O
+눈 혼탁 충혈,O S-SYMPTOM2 O
+강아지 눈 흰자에 이상한거,S-ANIMAL O O O
+고양이 눈 흰자에 이상한거,S-ANIMAL O O O
+눈 흰자에 이상한거,O O O
+강아지 눈에 검정 이물질,S-ANIMAL O O S-SYMPTOM1
+고양이 눈에 검정 이물질,S-ANIMAL O O S-SYMPTOM1
+눈에 검정 이물질,O O S-SYMPTOM1
+강아지 눈에 물집,S-ANIMAL O S-SYMPTOM1
+고양이 눈에 물집,S-ANIMAL O S-SYMPTOM1
+눈에 물집,O S-SYMPTOM1
+강아지 눈병 증상,S-ANIMAL O O
+고양이 눈병 증상,S-ANIMAL O O
+강아지 눈에 이물질,S-ANIMAL O O
+고양이 눈에 이물질,S-ANIMAL O O
+눈에 이물질,O O
+강아지가 눈을 비벼요,S-ANIMAL O O
+고양이가 눈을 비벼요,S-ANIMAL O O
+개가 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+저희집 개가 눈이 건조해요,S-ANIMAL O O S-SYMPTOM1
+눈을 비벼요,O O
+고양이가 눈을 비비는데?,S-ANIMAL O O
+강아지가 눈을 비비는데?,S-ANIMAL O O
+개가 눈을 비비는데?,S-ANIMAL O O
+눈을 비비는데?,O O
+강아지 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+고양이 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+개 눈이 건조해요,S-ANIMAL O S-SYMPTOM1
+눈이 건조해요,O S-SYMPTOM1
+강아지 눈 건조,S-ANIMAL O S-SYMPTOM1
+고양이 눈 건조,S-ANIMAL O S-SYMPTOM1
+개 눈 건조,S-ANIMAL O S-SYMPTOM1
+눈이 건조해요,O S-SYMPTOM1
+눈 건조,O S-SYMPTOM1
+강아지 눈 실명,S-ANIMAL O S-SYMPTOM1
+고양이 눈 실명,S-ANIMAL O S-SYMPTOM1
+개 눈 실명,S-ANIMAL O S-SYMPTOM1
+눈 실명,O S-SYMPTOM1
+강아지 눈 돌출,S-ANIMAL O S-SYMPTOM1
+고양이 눈 돌출,S-ANIMAL O S-SYMPTOM1
+개 눈 돌출,S-ANIMAL O S-SYMPTOM1
+눈 돌출,O S-SYMPTOM1
+강아지 눈 진탕,S-ANIMAL O S-SYMPTOM1
+고양이 눈 진탕,S-ANIMAL O S-SYMPTOM1
+개 눈 진탕,S-ANIMAL O S-SYMPTOM1
+눈 진탕,O S-SYMPTOM1
+강아지 눈 종괴,S-ANIMAL O S-SYMPTOM1
+고양이 눈 종괴,S-ANIMAL O S-SYMPTOM1
+개 눈 종괴,S-ANIMAL O S-SYMPTOM1
+눈 종괴,O S-SYMPTOM1
+강아지 눈 종창,S-ANIMAL O S-SYMPTOM1
+고양이 눈 종창,S-ANIMAL O S-SYMPTOM1
+개 눈 종창,S-ANIMAL O S-SYMPTOM1
+눈 종창,O S-SYMPTOM1
+강아지 눈 기생충,S-ANIMAL O S-SYMPTOM1
+고양이 눈 기생충,S-ANIMAL O S-SYMPTOM1
+개 눈 기생충,S-ANIMAL O S-SYMPTOM1
+눈 기생충,O S-SYMPTOM1
+강아지 속눈썹 이상,S-ANIMAL S-SYMPTOM1 O
+고양이 속눈썹 이상,S-ANIMAL S-SYMPTOM1 O
+개 속눈썹 이상,S-ANIMAL S-SYMPTOM1 O
+속눈썹 이상,O S-SYMPTOM1
+강아지 동공 확대,S-ANIMAL O S-SYMPTOM1
+고양이 동공 확대,S-ANIMAL O S-SYMPTOM1
+개 동공 확대,S-ANIMAL O S-SYMPTOM1
+동공 확대,O S-SYMPTOM1
+강아지 눈꺼풀 처짐,S-ANIMAL O S-SYMPTOM1
+고양이 눈꺼풀 처짐,S-ANIMAL O S-SYMPTOM1
+개 눈꺼풀 처짐,S-ANIMAL O S-SYMPTOM1
+눈꺼풀 처짐,O S-SYMPTOM1
+강아지 눈떨림,S-ANIMAL S-SYMPTOM1
+고양이 눈떨림,S-ANIMAL S-SYMPTOM1
+개 눈떨림,S-ANIMAL S-SYMPTOM1
+눈떨림,S-SYMPTOM1
+강아지 동공 이상,S-ANIMAL S-SYMPTOM1 O
+고양이 동공 이상,S-ANIMAL S-SYMPTOM1 O
+강아지 홍채 이상,S-ANIMAL S-SYMPTOM1 O
+고양이 동공 이상,S-ANIMAL S-SYMPTOM1 O
+저희집 고양이 눈이 이상해요,S-ANIMAL O O O
+저희집 강아지 눈이 이상해요,O S-ANIMAL O O
+저희집 개 눈이 이상해요,O S-ANIMAL O O

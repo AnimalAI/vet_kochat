@@ -35,3 +35,14 @@ eye = Scenario(
         'SYMPTOM2': ['눈'],
     }
 )
+
+cough = Scenario(
+    intent='cough',
+    api=diagnosis.request,
+    scenario={
+        'ANIMAL': [],
+        'AREA': [' '],
+        'SYMPTOM1': [],
+        'SYMPTOM2': ['기침'],
+    }
+)

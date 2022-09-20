@@ -1,12 +1,11 @@
 ﻿question,label
 기침,O
-피 섞인 기침, O O O
+피 섞인 기침,O O O
 기침해요...,O
-기침한 후에 사료는 아직 안먹고있어요,O O O O
 기침하고 식욕이 없어요,O S-SYMPTOM1 O
 기침하고 설사,O S-SYMPTOM1
 기침하고 몸의 근육이 다 이완 된 것 처럼 보입니다,O O O O O O O O O
-기침을 해요,O
+기침을 해요,O O
 기침을 했어요,O O
 기침을 했습니다.,O O
 기침을 하고 밥을 안먹어요,O O O O
@@ -19,8 +18,8 @@
 기침 문제 있나요?,O O O
 기침 기운없음 식욕부진,O O O
 기침,O
-키우던 고양이가 기침한후 밥을 안먹어요,O S-ANIMAL O O O O
-키우던 강아지가 기침한후 밥을 안먹어요,O S-ANIMAL O O O O
+키우던 고양이가 기침하고 밥을 안먹어요,O S-ANIMAL O O O
+키우던 강아지가 기침하고 밥을 안먹어요,O S-ANIMAL O O O
 최근 무마취로 미용후에 기침을 자꾸하네요,O O O O O
 좀 자주 기침을 해요 ㅠㅠ,O O O O O
 저희집 고양이가 자주 기침해요,O S-ANIMAL O O
@@ -34,23 +33,23 @@
 오늘 갑자기 고양이가 기침했어요.,O O S-ANIMAL O
 오늘 2~3번 기침했고요.,O O O
 약 먹고 잘 지냈는데 오늘 보니까 기침을 또 하네요ㅠㅠㅠ,O O O O O O O O O
-아기 고양이 기침하고 설사,O S-ANIMAL S-SYMPTOM1 S-SYMPTOM2 O
+아기 고양이 기침하고 설사,O S-ANIMAL O S-SYMPTOM1
 식후엔 기침,O O
 식후 기침,O O
 성묘 기침,O O
 성견 기침,O O
 "설사, 기침",S-SYMPTOM1 O
-기침해요 병원 가야 되나요?,O O O O O O
+기침해요 병원 가야 되나요?,O O O O
 새벽 6시쯤에 저희 다 자고 있는데 갑자기 기침했어요.,O O O O O O O O
 "새끼고양이 범백 치료 중에 설사, 기침 증상이 있는데요",S-ANIMAL O O O O O O O
 새끼 강아지 목욕 후 기침 및 발작,O S-ANIMAL O O O O O
 변도 잘 누고 소변도 잘 눴는데 갑자기 기침을 하니..,O O O O O O O O O
 "동물병원 약을 자꾸 뱉고 기침하고 그러는데요,",O O O O O O
-기침해요 급합니다,O O O O
+기침해요 급합니다,O O
 근데 어제부터 기침을 반복적으로 많이 해요 ㅠㅠ,O O O O O O O
 기침과 식욕없음,O S-SYMPTOM1
 "기침, 설사 혈변, 떠는증상",O S-SYMPTOM1 S-SYMPTOM2 O
-기침하고 설사를 합니다,O O S-SYMPTOM1 O
+기침하고 설사를 합니다,O S-SYMPTOM1 O
 기침 침흘림,O S-SYMPTOM1
 기침 창백,O S-SYMPTOM1
 기침 안절부절,O S-SYMPTOM1
@@ -78,13 +77,12 @@
 고양이가 좀 자주 기침을 해요 ㅠㅠ,S-ANIMAL O O O O O
 고양이가 자주 기침해요,S-ANIMAL O O
 고양이가 자꾸 기침해요ㅠㅠ,S-ANIMAL O O
-고양이가 자꾸 기침을 해요,S-ANIMAL O O
+고양이가 자꾸 기침을 해요,S-ANIMAL O O O
 고양이가 자꾸 기침하네,S-ANIMAL O O
 고양이가 오늘 갑자기 기침을 하네요.,S-ANIMAL O O O O
 고양이가 오늘 갑자기 기침을 하네요.,S-ANIMAL O O O O
 고양이가 어제 갑자기 기침하네,S-ANIMAL O O O
 고양이가 기침하고 기력없음,S-ANIMAL O S-SYMPTOM1
-고양이가 기침하고 사료도 안먹고 원래는 활발한데 기력도 없어요.,S-ANIMAL O O O O O O O O
 고양이가 기침 하고 설사를 합니다,S-ANIMAL O O S-SYMPTOM1 O
 고양이가 기침,S-ANIMAL O
 고양이 혈뇨 + 기침 관련,S-ANIMAL S-SYMPTOM1 O O O
@@ -96,7 +94,7 @@
 고양이 기침 질문,S-ANIMAL O O
 고양이 기침 증상,S-ANIMAL O O
 고양이 기 식욕없음,S-ANIMAL O S-SYMPTOM1
-"고양이 기침, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 S-SYMPTOM2 O
+"고양이 기침, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 O O
 고양이 기침 침흘림,S-ANIMAL O S-SYMPTOM1
 고양이 기침 창백,S-ANIMAL O S-SYMPTOM1
 고양이 기침 안절부절,S-ANIMAL O S-SYMPTOM1
@@ -130,7 +128,7 @@
 강아지가 자주 기침해요,S-ANIMAL O O
 강아지가 자꾸 기침하네,S-ANIMAL O O
 강아지가 밥을 잘안먹고 기침해요..,S-ANIMAL O O O
-강아지가 기침해요 무슨 문제 있는건가요..?,S-ANIMAL O O O O O
+강아지가 기침해요 무슨 문제 있는건가요..?,S-ANIMAL O O O O
 강아지가 기침,S-ANIMAL O
 강아지가 껌을 먹고 기침해요 급합니다,S-ANIMAL O O O O
 강아지가 껌을 먹고 기침해요,S-ANIMAL O O O
@@ -158,7 +156,7 @@
 강아지 기침증상,S-ANIMAL O
 강아지 기침와 식욕없음,S-ANIMAL O S-SYMPTOM1
 강아지 기침? 오줌에 덩어리,S-ANIMAL O O O
-"강아지 기침, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 S-SYMPTOM2 O
+"강아지 기침, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 O O
 강아지 기침 침흘림,S-ANIMAL O S-SYMPTOM1
 강아지 기침 창백,S-ANIMAL O S-SYMPTOM1
 강아지 기침 안절부절,S-ANIMAL O S-SYMPTOM1
@@ -274,3 +272,30 @@
 고양이 기침 관련 질병 알려주겠니?,S-ANIMAL O O O O
 강아지 기침 관련 질병 알려주겠니?,S-ANIMAL O O O O
 기침 관련 질병 알려주겠니?,O O O O
+강아지 기침이 너무 심해요,S-ANIMAL O O O
+고양이 기침이 너무 심해요,S-ANIMAL O O O
+기침이 너무 심해요,O O O
+강아지가 가래 뱉으면서 기침해요,S-ANIMAL O O O
+고양이가 가래 뱉으면서 기침해요,S-ANIMAL O O O
+가래 뱉으면서 기침해요,O O O
+새끼 강아지가 기침을 심하게해요,O S-ANIMAL S-SYMPTOM1 O
+새끼 고양이가 기침을 심하게해요,O S-ANIMAL S-SYMPTOM1 O
+기침을 심하게해요,S-SYMPTOM1 O
+강아지가 기침을 많이 해요,S-ANIMAL O O O
+고양이가 기침을 많이 해요,S-ANIMAL O O O
+기침을 많이 해요,O O O
+강아지 기침 증상 도와주세요,S-ANIMAL O O O
+고양이 기침 증상 도와주세요,S-ANIMAL O O O
+기침 증상 도와주세요,O O O
+강아지 기침 현상 가쁜호흡,S-ANIMAL O O S-SYMPTOM1
+강아지 기침 현상 개구호흡,S-ANIMAL O O S-SYMPTOM1
+고양이 기침 현상 가쁜호흡,S-ANIMAL O O S-SYMPTOM1
+고양이 기침 현상 개구호흡,S-ANIMAL O O S-SYMPTOM1
+고양이 기침 현상 재채기,S-ANIMAL O O S-SYMPTOM1
+강아지 기침 현상 재채기,S-ANIMAL O O S-SYMPTOM1
+기침 현상 개구호흡,O O S-SYMPTOM1
+강아지 콧물 기침,S-ANIMAL S-SYMPTOM1 O
+고양이 콧물 기침,S-ANIMAL S-SYMPTOM1 O
+콧물 기침,S-SYMPTOM1 O
+강아지 잔기침,S-ANIMAL O
+고양이 잔기침,S-ANIMAL O
