@@ -89,12 +89,9 @@ function requestChat(messageText, url_pattern) {
             state = data['state'];
             if (state === 'SUCCESS') {
                 return sendMessage(data['answer'], 'left');
-
                 // 슬롯 필링 구현한 부분 REQUIRE_ (+사용자 정의 태그)
             } else if (state === 'REQUIRE_SYMPTOM1') {
                  return sendMessage('세부적인 증상을 서술해주세요', 'left');
-            } else if (state === 'REQUIRE_SYMPTOM2') {
-                return sendMessage('세부적인 증상을 서술해주세요', 'left');
             } else if (state === 'REQUIRE_AREA') {
                 return sendMessage('세부적인 부위를 서술해주세요', 'left');
             } else if (state === 'REQUIRE_ANIMAL') {

@@ -375,8 +375,8 @@
 토하는건 왜이러는거지,O O
 구토 증상 알려줘,O O O
 토하는데 왜이러는지 알려주세요,O O O
-고양이 구토 관련 질병 알려줘,O S-ANIMAL O O O
-강아지 구토 관련 질병 알려줘,O S-ANIMAL O O O
+고양이 구토 관련 질병 알려줘,S-ANIMAL O O O O
+강아지 구토 관련 질병 알려줘,S-ANIMAL O O O O
 구토 관련된 질병 어떤게 있는지 알려줘,O O O O O O
 구토 관련 질병 부탁하겠습니다,O O O O
 구토 관련 질병,O O O

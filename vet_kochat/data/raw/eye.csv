@@ -39,6 +39,13 @@ question,label
 강아지 눈 관련 질문드려요,S-ANIMAL O O O
 고양이 눈 관련 질문드려요,S-ANIMAL O O O
 개 눈 관련 질문드려요,S-ANIMAL O O O
+고양이 눈과 관련된 질병 알려주세요,S-ANIMAL O O O O
+강아지 눈과 관련된 질병 알려주세요,S-ANIMAL O O O O
+강아지 눈관련 질병 좀 알려주세요,S-ANIMAL O O O O
+고양이 눈관련 질병 좀 알려주세요,S-ANIMAL O O O O
+고양이 눈 관련 질병 알려주겠니?,S-ANIMAL O O O O
+강아지 눈 관련 질병 알려주겠니?,S-ANIMAL O O O O
+눈 관련 질병 알려주겠니?,O O O O
 눈 관련 질문드려요,O O O
 저희집 개 눈이 이상해요,S-ANIMAL O O O
 강아지 눈이 왜 이럴까요?,S-ANIMAL O O O
