@@ -51,7 +51,7 @@
 오늘 갑자기 고양이가 토했어요.,O O S-ANIMAL O
 오늘 2~3번 토했고요.,O O O
 약 먹고 잘 지냈는데 오늘 보니까 흰색 토를 또 해놨네요ㅠㅠㅠ,O O O O O O O O O O
-아기고양이 사료 토하고 설사,S-ANIMAL S-SYMPTOM1 S-SYMPTOM2 O
+아기고양이 사료 토하고 설사,S-ANIMAL O O S-SYMPTOM1
 "아기강아지 공복토, 사료 잘 안먹을때",S-ANIMAL O O O O
 식후엔 갈색토,O O
 식후 갈색토,O O
@@ -87,7 +87,6 @@
 구토만 대여섯번 했나.. 침대에도 있고..,O O O O O
 구토를 자주해요,O O
 구토?,O
-"구토, 설사 혈변, 떠는증상",O S-SYMPTOM1 S-SYMPTOM2 O
 구토 하고 설사를 합니다,O O S-SYMPTOM1 O
 구토 침흘림,O S-SYMPTOM1
 구토 창백,O S-SYMPTOM1
@@ -182,7 +181,6 @@
 고양이 구토질문,S-ANIMAL O
 고양이 구토증상,S-ANIMAL O
 고양이 구토와 식욕없음,S-ANIMAL O S-SYMPTOM1
-"고양이 구토, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 S-SYMPTOM2 O
 고양이 구토 침흘림,S-ANIMAL O S-SYMPTOM1
 고양이 구토 창백,S-ANIMAL O S-SYMPTOM1
 고양이 구토 안절부절,S-ANIMAL O S-SYMPTOM1
@@ -272,7 +270,6 @@
 강아지 구토증상,S-ANIMAL O
 강아지 구토와 식욕없음,S-ANIMAL O S-SYMPTOM1
 강아지 구토? 오줌에 덩어리,S-ANIMAL O O O
-"강아지 구토, 설사 혈변, 떠는증상",S-ANIMAL O S-SYMPTOM1 S-SYMPTOM2 O
 강아지 구토 침흘림,S-ANIMAL O S-SYMPTOM1
 강아지 구토 창백,S-ANIMAL O S-SYMPTOM1
 강아지 구토 안절부절,S-ANIMAL O S-SYMPTOM1

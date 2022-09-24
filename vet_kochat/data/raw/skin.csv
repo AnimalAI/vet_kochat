@@ -395,7 +395,13 @@ question,label
 피부 관련 질병,O O O
 피부 관련 질병 알려주겠니?,O O O O
 피부 관련 질병 말해봐,O O O O
-강아지 피부가 이상한데 왜이럴까?,O O O O
-고양이 피부가 이상한데 왜이럴까?,O O O O
-개 피부가 이상한데 왜이럴까?,O O O O
+강아지 피부가 이상한데 왜이럴까?,S-ANIMAL O O O
+고양이 피부가 이상한데 왜이럴까?,S-ANIMAL O O O
+개 피부가 이상한데 왜이럴까?,S-ANIMAL O O O
 피부가 빨갛고 부었어,O O O
+강아지 피부에 물집,S-ANIMAL O S-SYMPTOM1
+고양이 피부에 물집,S-ANIMAL O S-SYMPTOM1
+피부에 물집,O S-SYMPTOM1
+강아지 피부에 물집 질문,S-ANIMAL O S-SYMPTOM1 O
+고양이 피부에 물집 질문,S-ANIMAL O S-SYMPTOM1 O
+피부에 물집 질문,O S-SYMPTOM1 O O

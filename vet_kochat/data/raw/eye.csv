@@ -145,7 +145,7 @@ question,label
 눈 주변이 빨간데?,O O O
 강아지 눈 혼탁,S-ANIMAL O S-SYMPTOM1
 고양이 눈 혼탁,S-ANIMAL O S-SYMPTOM1
-눈 혼탁,O S-SYMPTOM2
+눈 혼탁,O S-SYMPTOM1
 강아지 눈 흰자에 이상한거,S-ANIMAL O O O
 고양이 눈 흰자에 이상한거,S-ANIMAL O O O
 눈 흰자에 이상한거,O O O
