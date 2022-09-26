@@ -1,8 +1,25 @@
 // variables
 let userName = null;
+let petName = null;
 let state = 'SUCCESS';
 
+var mpsql = require('mysql');
+var con = mysql.createConnection({
+})
+
 // functions
+function insertToMySql() {
+    con.connect(function(err) {
+       if(err) throw err;
+       console.log("Connected!");
+       var sql = "INSERT INTO hz_member(mb_name, mb_level) VALUES ('homzzang','10')";
+       con.query(sql, function (err, result) {
+            if(err) throw err;
+            console.log('1 record inserted');
+       });
+    });
+}
+
 function Message(arg) {
     this.text = arg.text;
     this.message_side = arg.message_side;
@@ -42,7 +59,7 @@ function sendMessage(text, message_side) {
 
 function greet() {
     setTimeout(function () {
-        return sendMessage("Kochat 데모에 오신걸 환영합니다.", 'left');
+        return sendMessage("Vet Kochat에 오신걸 환영합니다.", 'left');
     }, 1000);
 
     setTimeout(function () {
@@ -60,20 +77,41 @@ function setUserName(username) {
 
     if (username != null && username.replace(" ", "" !== "")) {
         setTimeout(function () {
-            return sendMessage("반갑습니다." + username + "님. 닉네임이 설정되었습니다.", 'left');
+            return sendMessage("반갑습니다 "+username + "님. 닉네임이 설정되었습니다.", 'left');
         }, 1000);
         setTimeout(function () {
-            return sendMessage("저는 반려동물 공공데이터를 기반으로 예측 진단을 내리는 챗봇입니다.", 'left');
+            return sendMessage(username + "님의 반려동물 이름을 입력해주세요.", 'left');
         }, 2000);
-        setTimeout(function () {
-            return sendMessage("무엇이든 물어보세요!", 'left');
-        }, 3000);
 
         return username;
 
     } else {
         setTimeout(function () {
             return sendMessage("올바른 닉네임을 이용해주세요.", 'left');
+        }, 1000);
+
+        return null;
+    }
+}
+
+function setPetName(petname) {
+
+    if (petname != null && petname.replace(" ", "" !== "")) {
+        setTimeout(function () {
+            return sendMessage("반려동물 이름이 " + petname + "(으)로 설정되었습니다.", 'left');
+        }, 1000);
+        setTimeout(function () {
+            return sendMessage("저는 반려동물 공공데이터를 기반으로 예상 진단을 내리는 챗봇입니다.", 'left');
+        }, 2000);
+        setTimeout(function () {
+            return sendMessage("무엇이든 물어보세요!", 'left');
+        }, 3000);
+
+        return petname;
+
+    } else {
+        setTimeout(function () {
+            return sendMessage("올바른 반려동물 이름을 입력해주세요.", 'left');
         }, 1000);
 
         return null;
@@ -88,7 +126,13 @@ function requestChat(messageText, url_pattern) {
         success: function (data) {
             state = data['state'];
             if (state === 'SUCCESS') {
-                return sendMessage(data['answer'], 'left');
+                setTimeout(function () {
+                    return sendMessage(data['answer'], 'left');
+                }, 1000);
+                // insertToMySql()
+                setTimeout(function () {
+                    return sendMessage("진단받은 질병은 예상진단에 추가됩니다.", 'left');
+                }, 2000);
                 // 슬롯 필링 구현한 부분 REQUIRE_ (+사용자 정의 태그)
             } else if (state === 'REQUIRE_SYMPTOM1') {
                  return sendMessage('세부적인 증상을 서술해주세요', 'left');
@@ -111,20 +155,22 @@ function onSendButtonClicked() {
     let messageText = getMessageText();
     sendMessage(messageText, 'right');
 
-    if (userName == null) {
+    if (userName == null && petName == null) {
         userName = setUserName(messageText);
+    } else if (userName != null && petName == null) {
+        petName = setPetName(messageText);
     } else {
-        if (messageText.includes('안녕')) {
+        if (messageText.includes('안녕') || messageText.includes('안뇽') || messageText.includes('하이')) {
             setTimeout(function () {
                 return sendMessage("안녕하세요. 저는 예측진단 Kochat봇입니다.", 'left');
+            }, 1000);
+        } else if (messageText.includes('반가워')) {
+            setTimeout(function () {
+                return sendMessage("안녕하세요. 반갑습니다.", 'left');
             }, 1000);
         } else if (messageText.includes('고마워')) {
             setTimeout(function () {
                 return sendMessage("천만에요. 더 물어보실 건 없나요?", 'left');
-            }, 1000);
-        } else if (messageText.includes('없어')) {
-            setTimeout(function () {
-                return sendMessage("그렇군요. 알겠습니다!", 'left');
             }, 1000);
         } else if (state.includes('REQUIRE')) {
             return requestChat(messageText, 'fill_slot');
