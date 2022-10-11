@@ -4,8 +4,6 @@ question,label
 개 피부가 이상해요,S-ANIMAL O O
 고양이 피부가 이상하고 식욕이 없어요,S-ANIMAL O O S-SYMPTOM1 O
 강아지 피부가 이상하고 식욕이 없어요,S-ANIMAL O O S-SYMPTOM1 O
-제가 친구들이랑 돌보는 고양이인데 이거 곰팡이 피부병 인가요??,O O O S-ANIMAL O S-SYMPTOM1 O O
-제가 친구들이랑 돌보는 강아지인데 이거 곰팡이 피부병 인가요??,O O O S-ANIMAL O S-SYMPTOM1 O O
 고양이 상처?,S-ANIMAL O
 강아지 상처?,S-ANIMAL O
 상처?,O
@@ -15,14 +13,12 @@ question,label
 개 좁쌀처럼 생긴 하얀 진드기,S-ANIMAL O O O O
 사진의 진드기의 종류가 무엇인가요?,O O O O
 이게 곰팡이성 피부질환인가요?,O S-SYMPTOM1 O
-자주 보이는 길고양이인데 다리에 상처가 있습니다.,O O S-ANIMAL O O O
 고양이 피부병인가요?,S-ANIMAL O
 강아지 피부병인가요?,S-ANIMAL O
 개 피부병인가요?,S-ANIMAL O
 피부병인가요?,O
 이거 고양이 진드기인가요?,O S-ANIMAL O
 이거 강아지 진드기인가요?,O S-ANIMAL O
-저희 고양이가 입주변에 상처?뾰루지?,O S-ANIMAL O O
 지금 등 쪽에 딱딱한 멍울이 생겼어요 ㅠ,O O O O O O O
 고양이 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
 강아지 엉덩이 옆에 욕창 같은게 생겼어요,S-ANIMAL O O S-SYMPTOM1 O O
@@ -33,13 +29,11 @@ question,label
 링웜,O
 링웜인가요??,O
 고양이가 피부병에 걸렸어요,S-ANIMAL O O
-고양이 3개월 됐고 귀에 있는 진드기 치료중입니다,S-ANIMAL O O O O O O
 귀에 있는 진드기 치료중입니다,O O O O
 고양이 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
 강아지 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
 개 눈에서 상처 자국이 보입니다.,S-ANIMAL S-AREA O O O
 눈에서 상처 자국이 보입니다.,S-AREA O O O
-처음에는 털이 들어간줄 알았는데 상처더군요.,O O O O O
 고양이 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
 강아지 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
 개 혓바닥에 상처들이 있어요,S-ANIMAL S-AREA O O
@@ -111,8 +105,6 @@ question,label
 개 여드름 너무 자주 납니다ㅜ,O O O O O
 여드름 너무 자주 납니다ㅜ,O O O O
 강아지 링웜,S-ANIMAL O
-수의사선생님이 복강내 종괴도 얘기했습니다,O O O O
-비장은 종괴가 여러군데 보여서 둘 다 절제수술했습니다,O O O O O O O
 강아지 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
 고양이 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
 개 발가락 골절 후 피부,S-ANIMAL S-AREA O O O
@@ -121,8 +113,6 @@ question,label
 사람피부병에 바르는 약을 바르면 어떻게되나요??,O O O O O
 강아지 다리 절음과 발바닥 핥음.,S-ANIMAL S-AREA O O O
 다리 절음과 발바닥 핥음.,S-AREA O O O
-강아지가 산책가기 전까지는 안그랬는데 다녀와서 한쪽 뒷다리를 절고 발바닥을 핥아요.,S-ANIMAL O O O O O O O O O
-발바닥만 핥아요 ㅠㅠ 어떻게 해야 하죠?,O O O O O O
 진드기가 맞나요?,O O
 이 진드기한테 물리면 어떤 증상이 잇나요?,O O O O O O
 강아지 진드기,S-ANIMAL O
@@ -210,7 +200,6 @@ question,label
 강아지가 말티즈인데 피부병이 낫질 않아요.,S-ANIMAL O O O O
 이게 작은 소참진드기 맞나요?,O O O O
 피부병이라면 무슨 피부병일까요..?ㅜㅜ,O O O
-"그런데 배쪽에서 종괴가 발견됬다네요, 최근에 밥도 잘못먹고 살이빠져서",O O O O O O O O
 고양이 배에 진드기가 있어요,S-ANIMAL S-AREA O O
 배에 진드기가 있어요,S-AREA O O
 고양이 가슴에 진드기가 있어요,S-ANIMAL S-AREA O O
@@ -312,65 +301,6 @@ question,label
 강아지 발에 상처,S-ANIMAL S-AREA S-SYMPTOM1
 고양이 배에 종양,S-ANIMAL S-AREA S-SYMPTOM1
 강아지 배에 종양,S-ANIMAL S-AREA S-SYMPTOM1
-고양이 가슴에 종양,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 가슴에 종양,S-ANIMAL S-AREA S-SYMPTOM1
-고양이 다리에 종양,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 다리에 종양,S-ANIMAL S-AREA S-SYMPTOM1
-고양이 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-고양이 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-고양이 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-고양이 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-고양이 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-고양이 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-강아지 다리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 머리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 발에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 가슴에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 귀에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 등에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 다리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 머리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 발에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 가슴에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 귀에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 등에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 다리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 머리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 발에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 가슴에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 귀에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 등에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-강아지 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
-개 다리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-개 머리에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-개 발에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-개 가슴에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-개 귀에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-개 등에 혹,S-ANIMAL S-AREA S-SYMPTOM1
-개 다리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 머리에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 발에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 가슴에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 귀에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 등에 혹이 났어요,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 다리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 머리에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 발에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 가슴에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 귀에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 등에 혹이 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 다리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 머리에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 발에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 가슴에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 귀에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
-개 등에 혹 났어,S-ANIMAL S-AREA S-SYMPTOM1 O
 개 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
 고양이 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
 개 피부에 비듬이 있어요,S-ANIMAL O S-SYMPTOM1 O
@@ -404,4 +334,4 @@ question,label
 피부에 물집,O S-SYMPTOM1
 강아지 피부에 물집 질문,S-ANIMAL O S-SYMPTOM1 O
 고양이 피부에 물집 질문,S-ANIMAL O S-SYMPTOM1 O
-피부에 물집 질문,O S-SYMPTOM1 O O
+피부에 물집 질문,O S-SYMPTOM1 O

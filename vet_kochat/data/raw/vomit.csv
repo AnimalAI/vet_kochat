@@ -46,11 +46,9 @@
 이제 1년 지난 고양이가 오늘 갑자기 토를 하네요.,O O O S-ANIMAL O O O O
 이제 1년 지난 강아지가 오늘 갑자기 토를 하네요.,O O O S-ANIMAL O O O O
 음식을 많이먹어서 그런건지 계속 토해요,O O O O O
-오늘 점심 1시경에 강아지가 갑자기 토를 하더니 조금전에 또 토를 했어요.,O O O S-ANIMAL O O O O O O O
 오늘 갑자기 토를 하네요.,O O O O
 오늘 갑자기 고양이가 토했어요.,O O S-ANIMAL O
 오늘 2~3번 토했고요.,O O O
-약 먹고 잘 지냈는데 오늘 보니까 흰색 토를 또 해놨네요ㅠㅠㅠ,O O O O O O O O O O
 아기고양이 사료 토하고 설사,S-ANIMAL O O S-SYMPTOM1
 "아기강아지 공복토, 사료 잘 안먹을때",S-ANIMAL O O O O
 식후엔 갈색토,O O
@@ -60,14 +58,11 @@
 "설사, 구토",S-SYMPTOM1 O
 섞인 토 했어요 병원 가야 되나요?,O O O O O O
 새벽 6시쯤에 저희 다 자고 있는데 갑자기 토했어요.,O O O O O O O O
-"새끼고양이 범백 치료 중에 설사,물토 증상이 있는데요",S-ANIMAL O O O O O O
-새끼 강아지 목욕 후 구토 및 발작,O S-ANIMAL O O O O O
+새끼 강아지 목욕 후 구토 및 발작,O S-ANIMAL O O O O S-SYMPTOM1
 사료만먹으면 토를해요.,O O
 사료를 토해요,O O
 사료 토,O O
 사료 구토,O O
-불투명한 끈적한 물가래 비슷한걸 토합니다,O O O O O
-변도 잘 누고 소변도 잘 눴는데 갑자기 토를 하니..,O O O O O O O O O
 방금 고양이가 토했어,O S-ANIMAL O
 방금 고양이가 토를 했어,O S-ANIMAL O O
 방금 고양이가 토 했어,O S-ANIMAL O O
@@ -81,8 +76,6 @@
 기생충을 토해,O O
 기생충을 토하네,O O
 기생충 토,O O
-근데 어제 부터 토를 반복적으로 많이 해요 ㅠㅠ,O O O O O O O O
-근데 어제 먹은걸 한 번 토했길래 혹시나 싶어서,O O O O O O O O
 구토와 식욕없음,O S-SYMPTOM1
 구토만 대여섯번 했나.. 침대에도 있고..,O O O O O
 구토를 자주해요,O O
@@ -99,7 +92,6 @@
 구역질,O
 "공복토, 사료 잘 안먹을때",O O O O
 고양이는 헤어볼을 토하잖아요,S-ANIMAL O O
-고양이나 강아지가 안보는사이에 토를한건지 뭔지 모르겠어요;;,S-ANIMAL S-ANIMAL O O O O
 고양이가 헤어볼 토할때,S-ANIMAL O O
 고양이가 헉헉대면서 계속 헛구역질을합니다,S-ANIMAL O O O
 고양이가 토했어요 ㅠㅠ,S-ANIMAL O O
@@ -110,14 +102,10 @@
 고양이가 토하고 식욕이 없어요,S-ANIMAL O S-SYMPTOM1 O
 고양이가 토하고 설사해요,S-ANIMAL O S-SYMPTOM1
 고양이가 토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
-고양이가 토를했어요.... 걱정되는데 증상설명해주실분있나요,S-ANIMAL O O O
-고양이가 토를했어요.... 걱정되는데,S-ANIMAL O O
 고양이가 토를했어요,S-ANIMAL O
 고양이가 토를해요,S-ANIMAL O
-고양이가 토를한건지 설사를 한건지 모르겠는데 병원에 가봐야 할까요?,S-ANIMAL O O O O O O O
 고양이가 토를 했어요,S-ANIMAL O O
 고양이가 토를 했습니다.,S-ANIMAL O O
-고양이가 토를 했는데 토에서 회충같은게 나왔습니다.,S-ANIMAL O O O O O
 고양이가 토를 해요,S-ANIMAL O O
 고양이가 토를 자주해요,S-ANIMAL O O
 고양이가 토를 자주해요,S-ANIMAL O O
@@ -197,7 +185,6 @@
 계속해서 토를 하니 걱정이됩니다.,O O O O
 계속 토해요,O O
 계속 토를해요..,O O
-개가 구토를 하고 사료도 안먹고 원래는 활발한데 기력도 없어요.,S-ANIMAL O O O O O O O O
 강아지가 헉헉대면서 계속 헛구역질을합니다,S-ANIMAL O O O
 강아지가 토했어요 ㅠㅠ,S-ANIMAL O O
 강아지가 토해요ㅠㅠ,S-ANIMAL O
@@ -238,7 +225,6 @@
 강아지가 구토하고 설사를 합니다,S-ANIMAL O S-SYMPTOM1 O
 강아지가 구토하고 기력이 없어요,S-ANIMAL O S-SYMPTOM1 O
 강아지가 구토하고 기력없음,S-ANIMAL O S-SYMPTOM1
-강아지가 구토를 하고 사료도 안먹고 원래는 활발한데 기력도 없어요.,S-ANIMAL O O O O O O O O
 강아지가 구토를 자주해요,S-ANIMAL O O
 강아지가 구토,S-ANIMAL O
 강아지가 구역질해요,S-ANIMAL S-SYMPTOM1
@@ -294,7 +280,6 @@
 갑자기 토를 자주 해요ㅠㅠ,O O O O
 갑자기 그날에 토를하고 설사를 했습니다.,O O O O O
 갑자기 구토해요,O O
-1년 조금안된 고양이가 있는데 요새 갑자기 사료만먹으면 토를해요.,O O O S-ANIMAL O O O O
 강아지가 토하고 호흡이 이상해요,S-ANIMAL O S-SYMPTOM1 O
 고양이가 토하고 호흡이 이상해요,S-ANIMAL O S-SYMPTOM1 O
 강아지가 토하고 호흡이 이상해,S-ANIMAL O S-SYMPTOM1 O

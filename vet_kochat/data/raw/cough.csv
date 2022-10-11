@@ -315,7 +315,7 @@
 물을 마시고 기침해요,O O O
 고양이 기침 저체온,S-ANIMAL O S-SYMPTOM1
 강아지 기침 저체온,S-ANIMAL O S-SYMPTOM1
-기침 저체온O S-SYMPTOM1
+기침 저체온,O S-SYMPTOM1
 고양이 기침 저체온 증상,S-ANIMAL O S-SYMPTOM1 O
 강아지 기침 저체온 증상,S-ANIMAL O S-SYMPTOM1 O
 기침 저체온 증상,O S-SYMPTOM1 O
@@ -396,7 +396,7 @@
 기침 호흡장애 무슨 질병인지 알려줘,O S-SYMPTOM1 O O O
 강아지 기침 호흡장애 질병 알려줘,S-ANIMAL O S-SYMPTOM1 O O
 고양이 기침 호흡장애 질병 알려줘,S-ANIMAL O S-SYMPTOM1 O O
-기침 호흡장애 증상 질병 알려줘,O S-SYMPTOM1 O O
+기침 호흡장애 증상 질병 알려줘,O S-SYMPTOM1 O O O
 강아지 기침 호흡장애 질병 알려줘요,S-ANIMAL O S-SYMPTOM1 O O
 고양이 기침 호흡장애 질병 알려줘요,S-ANIMAL O S-SYMPTOM1 O O
-기침 호흡장애 증상 질병 알려줘요,O S-SYMPTOM1 O O
+기침 호흡장애 증상 질병 알려줘요,O S-SYMPTOM1 O O O
