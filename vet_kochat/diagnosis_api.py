@@ -5,11 +5,21 @@ url = "http://43.200.87.239:5000"
 class RandomForestDiagnosis:
     def request(self, ANIMAL: str, AREA: str, SYMPTOM1: str, SYMPTOM2: str):
         try:
-            result = requests.post(url + "/predict",data={'a':ANIMAL,'b':AREA,'c':SYMPTOM1,'d':SYMPTOM2}).text
-            startIdx = result.index("<h2>  </h2>")
-            result = result[startIdx + 25:]
-            endIdx = result.index("</h2>")
-            result = result[:endIdx]
+            request = requests.post(url + "/predict",data={'a':ANIMAL,'b':AREA,'c':SYMPTOM1,'d':SYMPTOM2}).text
+            request = request[request.index("<h2>  </h2>")+25:request.index("<br><br>")-19]
+
+            result = "\n"
+            for i in range(2):
+                result += request[:request.index(" </h2>")] + " "
+                request = request[request.index("<h2>"):]
+                result += str(round(float(request[5:request.index(" </h2>")]),2)) + "%"
+                request = request[request.index("<h2>")+5:]
+                request = request[request.index("<h2>")+5:]
+                result += "\n"
+
+            result += request[:request.index(" </h2>")] + " "
+            request = request[request.index("<h2>"):]
+            result += str(round(float(request[5:request.index(" </h2>")]),2)) + "%"
 
             if SYMPTOM1 == "무기":
                 SYMPTOM1 += "력"
@@ -19,11 +29,11 @@ class RandomForestDiagnosis:
                 message += ANIMAL[0:3]
             else:
                 message += ANIMAL
-            if len(AREA) != 0:
+            if len(AREA) > 1:
                 message += (" "+str(AREA))
-            if len(AREA) != 0:
+            if len(SYMPTOM1) > 1:
                 message += (" "+str(SYMPTOM1))
-            if len(AREA) != 0:
+            if len(SYMPTOM2) > 1:
                 message += (" "+str(SYMPTOM2))
             message += "와 관련된 질병은 다음과 같습니다.\n"
             return message + result
