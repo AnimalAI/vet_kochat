@@ -147,21 +147,28 @@ function insertIntoDatabase(diagnose){
     var day = ('0' + today.getDate()).slice(-2);
     var dateString = year + '-' + month  + '-' + day;
 
-    // get current time
     var hours = ('0' + today.getHours()).slice(-2);
     var minutes = ('0' + today.getMinutes()).slice(-2);
     var seconds = ('0' + today.getSeconds()).slice(-2);
-    var timeString = hours + ':' + minutes  + ':' + seconds;
+    var timeString = hours + ':' + minutes  + ':' + seconds
+    var diagnose = "바보"
 
-    // (pets_pet_serial, pets_members_member_serial, diag_date, diag_time, diag_ds_name)
-    var formData = {pets_pet_serial:'8', pets_members_member_serial:'1', diag_date:"2022-10-10T15:00:00.000Z", diag_time:"20:12:55", diag_ds_name:"ㅅㅂ"}; //Array
+    connection.connect(function(err) {
+      if (err) {
+        throw err; // 접속에 실패하면 에러를 throw 합니다.
+      } else {
+        // 접속시 쿼리를 보냅니다.
+        var sql = "INSERT INTO expect_diagnoses (pets_pet_serial, pets_members_member_serial, diag_date, diag_time, diag_ds_name)";
+        sql += " VALUES (8,1,"
+        sql += "'" + dateString + "'"
+        sql += ",'" + timeString + "',"
+        sql += "'"+diagnose+"');"
 
-    $.ajax({
-        url: 'save.php',
-        type : "POST",
-        data: formData,
-        success: function(response) {
-        }
+        connection.query(sql, function(err, rows, fields) {
+          console.log(rows); // 결과를 출력합니다!
+        });
+        connection.end();
+      }
     });
 }
 
