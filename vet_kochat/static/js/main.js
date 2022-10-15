@@ -151,7 +151,7 @@ function insertIntoDatabase(diagnose){
     var minutes = ('0' + today.getMinutes()).slice(-2);
     var seconds = ('0' + today.getSeconds()).slice(-2);
     var timeString = hours + ':' + minutes  + ':' + seconds
-    var diagnose = "바보"
+    var diagnose = "안녕"
 
     connection.connect(function(err) {
       if (err) {
