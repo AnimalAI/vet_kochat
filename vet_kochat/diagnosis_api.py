@@ -5,38 +5,30 @@ url = "http://43.200.87.239:5000"
 class RandomForestDiagnosis:
     def request(self, ANIMAL: str, AREA: str, SYMPTOM1: str, SYMPTOM2: str):
         try:
+            # post data and get request body
             request = requests.post(url + "/predict",data={'a':ANIMAL,'b':AREA,'c':SYMPTOM1,'d':SYMPTOM2}).text
+
+            # strip the request body
             request = request[request.index("<h2>  </h2>")+25:request.index("<br><br>")-19]
+            result = request.replace("</h2>","").strip().split("<h2>")
+            result = [line.strip("\n ") for line in result]
 
-            result = "\n"
-            for i in range(2):
-                result += request[:request.index(" </h2>")] + " "
-                request = request[request.index("<h2>"):]
-                result += str(round(float(request[5:request.index(" </h2>")]),2)) + "%"
-                request = request[request.index("<h2>")+5:]
-                request = request[request.index("<h2>")+5:]
-                result += "\n"
-
-            result += request[:request.index(" </h2>")] + " "
-            request = request[request.index("<h2>"):]
-            result += str(round(float(request[5:request.index(" </h2>")]),2)) + "%"
-
-            if SYMPTOM1 == "무기":
-                SYMPTOM1 += "력"
-
-            message = ""
-            if len(ANIMAL) == 7:
-                message += ANIMAL[0:3]
-            else:
-                message += ANIMAL
-            if len(AREA) > 1:
+            message = "강아지의" if ANIMAL.find("강아지") != -1 or ANIMAL.find("개") != -1 else "고양이의"
+            if len(AREA) >= 1 and AREA != " ":
                 message += (" "+str(AREA))
-            if len(SYMPTOM1) > 1:
+            if len(SYMPTOM1) >= 1 and SYMPTOM1 != " ":
                 message += (" "+str(SYMPTOM1))
-            if len(SYMPTOM2) > 1:
+            if len(SYMPTOM2) >= 1 and SYMPTOM2 != " ":
                 message += (" "+str(SYMPTOM2))
-            message += "와 관련된 질병은 다음과 같습니다.\n"
-            return message + result
+            message += "와(과) 관련된 질병과 그 확률은 다음과 같습니다.\n"
+
+            for i in range(len(result)):
+                if i % 2 == 0:
+                    message += ("\n" + result[i])
+                else:
+                    message += ("\t" + str(round(float(result[i].strip()),2)) + "%")
+            return message
+
         except Exception:
             return self.sorry('그 질병은 알 수 없어요.')
 
