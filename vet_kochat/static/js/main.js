@@ -3,45 +3,6 @@ let userName = null;
 let petName = null;
 let state = 'SUCCESS';
 
-var mysql = require("mysql"); // mysql 모듈을 불러옵니다.
-
-// 커넥션을 정의합니다.
-// RDS Console 에서 본인이 설정한 값을 입력해주세요.
-var connection = mysql.createConnection({
-    host: 'aai-rds.cicyr4glvvx9.ap-northeast-2.rds.amazonaws.com',
-    user: 'admin',
-    port: '3306',
-    password: 'abcd1234',
-    database: 'aai'
-});
-
-connection.connect()
-
-function insertToMySql(petName,userName,diagnose) {
-    var today = new Date();
-    var year = today.getFullYear();
-    var month = ('0' + (today.getMonth() + 1)).slice(-2);
-    var day = ('0' + today.getDate()).slice(-2);
-    var dateString = year + '-' + month  + '-' + day;
-
-    // get current time
-    var hours = ('0' + today.getHours()).slice(-2);
-    var minutes = ('0' + today.getMinutes()).slice(-2);
-    var seconds = ('0' + today.getSeconds()).slice(-2);
-    var timeString = hours + ':' + minutes  + ':' + seconds;
-
-    var sql = "INSERT INTO expect_diagnoses (pets_pet_serial, pets_members_member_serial, diag_date, diag_time, diag_ds_name)";
-    sql += " VALUES (8,1,"
-    sql += "'" + dateString + "'"
-    sql += ",'" + timeString + "',"
-    sql += "'"+diagnose+"');"
-
-    connection.query(sql, function(err, rows, fields) {
-        console.log(rows); // 결과를 출력합니다!
-    });
-    connection.end();
-}
-
 function Message(arg) {
     this.text = arg.text;
     this.message_side = arg.message_side;
@@ -81,7 +42,7 @@ function sendMessage(text, message_side) {
 
 function greet() {
     setTimeout(function () {
-        return sendMessage("Vet Kochat에 오신걸 환영합니다.", 'left');
+        return sendMessage("안녕하세요. 증상으로 반려동물 질병을 진단하는 멍냥챗봇입니다.", 'left');
     }, 1000);
 
     setTimeout(function () {
@@ -140,38 +101,6 @@ function setPetName(petname) {
     }
 }
 
-function insertIntoDatabase(diagnose){
-    var today = new Date();
-    var year = today.getFullYear();
-    var month = ('0' + (today.getMonth() + 1)).slice(-2);
-    var day = ('0' + today.getDate()).slice(-2);
-    var dateString = year + '-' + month  + '-' + day;
-
-    var hours = ('0' + today.getHours()).slice(-2);
-    var minutes = ('0' + today.getMinutes()).slice(-2);
-    var seconds = ('0' + today.getSeconds()).slice(-2);
-    var timeString = hours + ':' + minutes  + ':' + seconds
-    var diagnose = "안녕"
-
-    connection.connect(function(err) {
-      if (err) {
-        throw err; // 접속에 실패하면 에러를 throw 합니다.
-      } else {
-        // 접속시 쿼리를 보냅니다.
-        var sql = "INSERT INTO expect_diagnoses (pets_pet_serial, pets_members_member_serial, diag_date, diag_time, diag_ds_name)";
-        sql += " VALUES (8,1,"
-        sql += "'" + dateString + "'"
-        sql += ",'" + timeString + "',"
-        sql += "'"+diagnose+"');"
-
-        connection.query(sql, function(err, rows, fields) {
-          console.log(rows); // 결과를 출력합니다!
-        });
-        connection.end();
-      }
-    });
-}
-
 function requestChat(messageText, url_pattern) {
     $.ajax({
         url: "http://127.0.0.1:5000/" + url_pattern + '/' + userName + '/' + messageText,
@@ -183,7 +112,6 @@ function requestChat(messageText, url_pattern) {
                 setTimeout(function () {
                     return sendMessage(data['answer'], 'left');
                 }, 1000);
-                insertIntoDatabase(data['answer']);
                 setTimeout(function () {
                     return sendMessage("진단받은 질병은 예상진단에 추가됩니다.", 'left');
                 }, 2000);
@@ -216,7 +144,7 @@ function onSendButtonClicked() {
     } else {
         if (messageText.includes('안녕') || messageText.includes('안뇽') || messageText.includes('하이')) {
             setTimeout(function () {
-                return sendMessage("안녕하세요. 저는 예측진단 Kochat봇입니다.", 'left');
+                return sendMessage("안녕하세요. 증상으로 반려동물 질병을 진단하는 멍냥챗봇입니다.", 'left');
             }, 1000);
         } else if (messageText.includes('반가워')) {
             setTimeout(function () {
