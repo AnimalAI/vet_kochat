@@ -46,3 +46,25 @@ cough = Scenario(
         'SYMPTOM2': ['기침'],
     }
 )
+
+lump = Scenario(
+    intent='lump',
+    api=diagnosis.request,
+    scenario={
+        'ANIMAL': [],
+        'AREA': [],
+        'SYMPTOM1': [' '],
+        'SYMPTOM2': ['종괴'],
+    }
+)
+
+other = Scenario(
+    intent='other',
+    api=diagnosis.request,
+    scenario={
+        'ANIMAL': [],
+        'AREA': [' '],
+        'SYMPTOM1': [' '],
+        'SYMPTOM2': [' '],
+    }
+)
